@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+# Heatmap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This uses the `useMapsLibrary` hook showing earthquake magnitude data in a
+heatmap.
 
-Currently, two official plugins are available:
+## Google Maps Platform API key
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This example does not come with an API key. Running the examples locally requires a valid API key for the Google Maps Platform.
+See [the official documentation][get-api-key] on how to create and configure your own key.
 
-## Expanding the ESLint configuration
+The API key has to be provided via an environment variable `GOOGLE_MAPS_API_KEY`. This can be done by creating a
+file named `.env` in the example directory with the following content:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```shell title=".env"
+GOOGLE_MAPS_API_KEY="<YOUR API KEY HERE>"
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+If you are on the CodeSandbox playground you can also choose to [provide the API key like this](https://codesandbox.io/docs/learn/environment/secrets)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Development
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+Go into the example-directory and run
+
+```shell
+npm install
 ```
+
+To start the example with the local library run
+
+```shell
+npm run start-local
+```
+
+The regular `npm start` task is only used for the standalone versions of the example (CodeSandbox for example)
+
+[get-api-key]: https://developers.google.com/maps/documentation/javascript/get-api-key
