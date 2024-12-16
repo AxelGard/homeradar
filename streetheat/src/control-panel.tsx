@@ -17,14 +17,12 @@ function ControlPanel({
     <div className="control-panel">
       <h3>Heatmap</h3>
       <p>
-        This uses the <code>useMapsLibrary()</code> hook and the{' '}
-        <code>google.maps.visualization</code> library to show earthquake
-        magnitude data in a heatmap.
+        This heat map lets you find areas to look for houses or apartments which you might be interested. 
       </p>
 
       {/* Circle Controls */}
       <div style={{marginBottom: '2rem'}}>
-        <h4>Change the heatmap appearance here:</h4>
+        <h4>Change the parameters here:</h4>
         <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
           <div
             style={{
@@ -60,16 +58,11 @@ function ControlPanel({
 
       <div className="links">
         <a
-          href="https://codesandbox.io/s/github/visgl/react-google-maps/tree/main/examples/heatmap"
+          href="https://github.com/AxelGard"
           target="_new">
-          Try on CodeSandbox ↗
+            Who made this?
         </a>
 
-        <a
-          href="https://github.com/visgl/react-google-maps/tree/main/examples/heatmap"
-          target="_new">
-          View Code ↗
-        </a>
       </div>
     </div>
   );

@@ -23,10 +23,11 @@ const App = () => {
 
   return (
     <APIProvider apiKey={API_KEY}>
+      <h1>Street Heat</h1>
       <Map
         mapId={'7a9e2ebecd32a903'}
-        defaultCenter={{lat: 40.7749, lng: -130.4194}}
-        defaultZoom={3}
+        defaultCenter={{lat: 59.327617892022914, lng:18.067634811237237}}
+        defaultZoom={5}
         gestureHandling={'greedy'}
         disableDefaultUI={true}
       />

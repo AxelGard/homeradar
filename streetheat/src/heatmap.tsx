@@ -28,8 +28,8 @@ const Heatmap = ({geojson, radius, opacity}: HeatmapProps) => {
         const [lng, lat] = point.geometry.coordinates;
 
         return {
-          location: new google.maps.LatLng(lat, lng),
-          weight: point.properties?.mag
+          location: new google.maps.LatLng(lng,lat),
+          weight: point.properties?.price
         };
       })
     );

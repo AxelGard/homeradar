@@ -1,17 +1,15 @@
 import {FeatureCollection, Point} from 'geojson';
 
-export type EarthquakeProps = {
+export type HouseProps = {
   id: string;
-  mag: number;
-  time: number;
-  felt: number | null;
-  tsunami: 0 | 1;
+  price: number;
+  size: number;
 };
 
-export type EarthquakesGeojson = FeatureCollection<Point, EarthquakeProps>;
+export type EarthquakesGeojson = FeatureCollection<Point, HouseProps>;
 
 export async function loadEarthquakeGeojson(): Promise<EarthquakesGeojson> {
-  const url = new URL('../data/earthquakes.json', import.meta.url);
+  const url = new URL('../data/booli.json', import.meta.url);
 
   return await fetch(url).then(res => res.json());
 }

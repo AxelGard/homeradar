@@ -1,0 +1,357 @@
+,street_name,area,city,price,size,type,Full Address,lat,lng,alt
+0,Tellusgatan 3, Planetstaden , Lund,625000.0,13.0,Lägenhet ,"Tellusgatan 3,  Planetstaden ,  Lund",55.698257549999994,13.209481083930164,0.0
+1,Bivägen 21, Ringsegård , Falkenberg,4500000.0,133.0,Villa ,"Bivägen 21,  Ringsegård ,  Falkenberg",56.870312104059686,12.55465440436976,0.0
+2,Volontärsgatan 3B, Västra Berga , Helsingborg,1770000.0,92.0,Lägenhet ,"Volontärsgatan 3B,  Västra Berga ,  Helsingborg",0.0,0.0,0.0
+3,Tegelbruksvägen 7F, Ekerö Centrum , Ekerö,2550000.0,61.0,Lägenhet ,"Tegelbruksvägen 7F,  Ekerö Centrum ,  Ekerö",0.0,0.0,0.0
+4,Sandelsgatan 35, Gärdet , Stockholm,7800000.0,65.0,Lägenhet ,"Sandelsgatan 35,  Gärdet ,  Stockholm",59.343907,18.0937966,0.0
+5,Furudal Saharavägen 17, Furudal , Rättvik,510000.0,78.0,Villa ,"Furudal Saharavägen 17,  Furudal ,  Rättvik",0.0,0.0,0.0
+6,Maskinistvägen 13, Bolinder Strand , Järfälla,2520000.0,49.0,Lägenhet ,"Maskinistvägen 13,  Bolinder Strand ,  Järfälla",0.0,0.0,0.0
+7,Fyrväpplingsvägen 13, Sundsbruk , Sundsvall,450000.0,56.5,Lägenhet ,"Fyrväpplingsvägen 13,  Sundsbruk ,  Sundsvall",62.4607527,17.3536288,0.0
+8,Oknölundsvägen 9, Oknö , Mönsterås,300000.0,86.0,Villa ,"Oknölundsvägen 9,  Oknö ,  Mönsterås",0.0,0.0,0.0
+9,Rimsmedsvägen 11A, Berga , Kalmar,760000.0,76.0,Lägenhet ,"Rimsmedsvägen 11A,  Berga ,  Kalmar",56.6905472,16.3410303,0.0
+10,Måsvägen 14A, Väster , Lund,1725000.0,37.0,Lägenhet ,"Måsvägen 14A,  Väster ,  Lund",55.7084278,13.1712788,0.0
+11,Träringen 26, Björkekärr , Göteborg,1995000.0,54.0,Lägenhet ,"Träringen 26,  Björkekärr ,  Göteborg",57.7139869,12.0546476,0.0
+12,Östra Farmvägen 38E, Östra Sorgenfri , Malmö,1375000.0,60.0,Lägenhet ,"Östra Farmvägen 38E,  Östra Sorgenfri ,  Malmö",55.59657087320845,13.02913579406767,0.0
+13,Hasselvägen 11, Kallinge , Ronneby,540000.0,92.0,Villa ,"Hasselvägen 11,  Kallinge ,  Ronneby",56.23771043785697,15.296982465875423,0.0
+14,Oxhagsvägen 4C, Oxhagen , Kalmar,795000.0,63.0,Lägenhet ,"Oxhagsvägen 4C,  Oxhagen ,  Kalmar",56.6767122,16.3398127,0.0
+15,Axel Danielssons väg 19, Fosie , Malmö,1195000.0,80.0,Lägenhet ,"Axel Danielssons väg 19,  Fosie ,  Malmö",0.0,0.0,0.0
+16,Västermalmsgatan 3, Djäkneberget , Västerås,3295000.0,115.0,Lägenhet ,"Västermalmsgatan 3,  Djäkneberget ,  Västerås",0.0,0.0,0.0
+17,Cederflychts gata 1, Hisings Backa , Göteborg,1120000.0,66.0,Lägenhet ,"Cederflychts gata 1,  Hisings Backa ,  Göteborg",0.0,0.0,0.0
+18,Roslagsgatan 51, Vasastan , Stockholm,5550000.0,46.0,Lägenhet ,"Roslagsgatan 51,  Vasastan ,  Stockholm",59.3498883,18.0561075,0.0
+19,Vegagatan 11, Bremerlyckan , Kalmar,4450000.0,109.5,Lägenhet ,"Vegagatan 11,  Bremerlyckan ,  Kalmar",56.6615,16.3497,0.0
+20,Kungsberget 1, Tannefors , Linköping,1900000.0,59.5,Lägenhet ,"Kungsberget 1,  Tannefors ,  Linköping",58.4093486,15.640533549999995,0.0
+21,Bolmensvägen 5, Årsta , Stockholm,2950000.0,42.0,Lägenhet ,"Bolmensvägen 5,  Årsta ,  Stockholm",59.2951286,18.0604508,0.0
+22,Granbackavägen 12, Centrum , Gnesta,1600000.0,81.5,Lägenhet ,"Granbackavägen 12,  Centrum ,  Gnesta",0.0,0.0,0.0
+23,Nässelstigen 37, Hässelby Södra Villastad , Stockholm,4350000.0,110.0,Radhus ,"Nässelstigen 37,  Hässelby Södra Villastad ,  Stockholm",0.0,0.0,0.0
+24,Linnégatan 11, Bränninge , Habo,3600000.0,143.0,Villa ,"Linnégatan 11,  Bränninge ,  Habo",57.9051556,14.070848744104016,0.0
+25,Näckrosgränd 2, Frönäs , Gnesta,4150000.0,155.0,Villa ,"Näckrosgränd 2,  Frönäs ,  Gnesta",59.053228656578135,17.30780200537947,0.0
+26,Älgstigen 1A, Älgstigen , Jönköping,2650000.0,110.0,Lägenhet ,"Älgstigen 1A,  Älgstigen ,  Jönköping",0.0,0.0,0.0
+27,Ostingevägen 24, Dalliden , Kil,1600000.0,110.0,Villa ,"Ostingevägen 24,  Dalliden ,  Kil",59.4927496,13.330705404235731,0.0
+28,Idrottsgatan 17, Svartbäcken , Uppsala,3320000.0,92.0,Lägenhet ,"Idrottsgatan 17,  Svartbäcken ,  Uppsala",59.87028066433668,17.626248024099766,0.0
+29,Göstorpsvägen 138, Göstorp , Laholm,700000.0,85.0,Villa ,"Göstorpsvägen 138,  Göstorp ,  Laholm",0.0,0.0,0.0
+30,Skogsövägen 8B, Neglinge , Nacka,11500000.0,109.0,Lägenhet ,"Skogsövägen 8B,  Neglinge ,  Nacka",59.30048390820917,18.28830535642179,0.0
+31,Serenadgatan 55, Högaholm , Malmö,1510000.0,81.5,Lägenhet ,"Serenadgatan 55,  Högaholm ,  Malmö",0.0,0.0,0.0
+32,Tellusgatan 3, Planetstaden , Lund,625000.0,13.0,Lägenhet ,"Tellusgatan 3,  Planetstaden ,  Lund",55.698257549999994,13.209481083930164,0.0
+33,Bivägen 21, Ringsegård , Falkenberg,4500000.0,133.0,Villa ,"Bivägen 21,  Ringsegård ,  Falkenberg",56.870312104059686,12.55465440436976,0.0
+34,Volontärsgatan 3B, Västra Berga , Helsingborg,1770000.0,92.0,Lägenhet ,"Volontärsgatan 3B,  Västra Berga ,  Helsingborg",0.0,0.0,0.0
+35,Tegelbruksvägen 7F, Ekerö Centrum , Ekerö,2550000.0,61.0,Lägenhet ,"Tegelbruksvägen 7F,  Ekerö Centrum ,  Ekerö",0.0,0.0,0.0
+36,Sandelsgatan 35, Gärdet , Stockholm,7800000.0,65.0,Lägenhet ,"Sandelsgatan 35,  Gärdet ,  Stockholm",59.343907,18.0937966,0.0
+37,Furudal Saharavägen 17, Furudal , Rättvik,510000.0,78.0,Villa ,"Furudal Saharavägen 17,  Furudal ,  Rättvik",0.0,0.0,0.0
+38,Maskinistvägen 13, Bolinder Strand , Järfälla,2520000.0,49.0,Lägenhet ,"Maskinistvägen 13,  Bolinder Strand ,  Järfälla",0.0,0.0,0.0
+39,Fyrväpplingsvägen 13, Sundsbruk , Sundsvall,450000.0,56.5,Lägenhet ,"Fyrväpplingsvägen 13,  Sundsbruk ,  Sundsvall",62.4607527,17.3536288,0.0
+40,Oknölundsvägen 9, Oknö , Mönsterås,300000.0,86.0,Villa ,"Oknölundsvägen 9,  Oknö ,  Mönsterås",0.0,0.0,0.0
+41,Rimsmedsvägen 11A, Berga , Kalmar,760000.0,76.0,Lägenhet ,"Rimsmedsvägen 11A,  Berga ,  Kalmar",56.6905472,16.3410303,0.0
+42,Måsvägen 14A, Väster , Lund,1725000.0,37.0,Lägenhet ,"Måsvägen 14A,  Väster ,  Lund",55.7084278,13.1712788,0.0
+43,Träringen 26, Björkekärr , Göteborg,1995000.0,54.0,Lägenhet ,"Träringen 26,  Björkekärr ,  Göteborg",57.7139869,12.0546476,0.0
+44,Östra Farmvägen 38E, Östra Sorgenfri , Malmö,1375000.0,60.0,Lägenhet ,"Östra Farmvägen 38E,  Östra Sorgenfri ,  Malmö",55.59657087320845,13.02913579406767,0.0
+45,Hasselvägen 11, Kallinge , Ronneby,540000.0,92.0,Villa ,"Hasselvägen 11,  Kallinge ,  Ronneby",56.23771043785697,15.296982465875423,0.0
+46,Oxhagsvägen 4C, Oxhagen , Kalmar,795000.0,63.0,Lägenhet ,"Oxhagsvägen 4C,  Oxhagen ,  Kalmar",56.6767122,16.3398127,0.0
+47,Axel Danielssons väg 19, Fosie , Malmö,1195000.0,80.0,Lägenhet ,"Axel Danielssons väg 19,  Fosie ,  Malmö",0.0,0.0,0.0
+48,Västermalmsgatan 3, Djäkneberget , Västerås,3295000.0,115.0,Lägenhet ,"Västermalmsgatan 3,  Djäkneberget ,  Västerås",0.0,0.0,0.0
+49,Cederflychts gata 1, Hisings Backa , Göteborg,1120000.0,66.0,Lägenhet ,"Cederflychts gata 1,  Hisings Backa ,  Göteborg",0.0,0.0,0.0
+50,Roslagsgatan 51, Vasastan , Stockholm,5550000.0,46.0,Lägenhet ,"Roslagsgatan 51,  Vasastan ,  Stockholm",59.3498883,18.0561075,0.0
+51,Vegagatan 11, Bremerlyckan , Kalmar,4450000.0,109.5,Lägenhet ,"Vegagatan 11,  Bremerlyckan ,  Kalmar",56.6615,16.3497,0.0
+52,Kungsberget 1, Tannefors , Linköping,1900000.0,59.5,Lägenhet ,"Kungsberget 1,  Tannefors ,  Linköping",58.4093486,15.640533549999995,0.0
+53,Bolmensvägen 5, Årsta , Stockholm,2950000.0,42.0,Lägenhet ,"Bolmensvägen 5,  Årsta ,  Stockholm",59.2951286,18.0604508,0.0
+54,Granbackavägen 12, Centrum , Gnesta,1600000.0,81.5,Lägenhet ,"Granbackavägen 12,  Centrum ,  Gnesta",0.0,0.0,0.0
+55,Nässelstigen 37, Hässelby Södra Villastad , Stockholm,4350000.0,110.0,Radhus ,"Nässelstigen 37,  Hässelby Södra Villastad ,  Stockholm",0.0,0.0,0.0
+56,Linnégatan 11, Bränninge , Habo,3600000.0,143.0,Villa ,"Linnégatan 11,  Bränninge ,  Habo",57.9051556,14.070848744104016,0.0
+57,Näckrosgränd 2, Frönäs , Gnesta,4150000.0,155.0,Villa ,"Näckrosgränd 2,  Frönäs ,  Gnesta",59.053228656578135,17.30780200537947,0.0
+58,Älgstigen 1A, Älgstigen , Jönköping,2650000.0,110.0,Lägenhet ,"Älgstigen 1A,  Älgstigen ,  Jönköping",0.0,0.0,0.0
+59,Ostingevägen 24, Dalliden , Kil,1600000.0,110.0,Villa ,"Ostingevägen 24,  Dalliden ,  Kil",59.4927496,13.330705404235731,0.0
+60,Idrottsgatan 17, Svartbäcken , Uppsala,3320000.0,92.0,Lägenhet ,"Idrottsgatan 17,  Svartbäcken ,  Uppsala",59.87028066433668,17.626248024099766,0.0
+61,Göstorpsvägen 138, Göstorp , Laholm,700000.0,85.0,Villa ,"Göstorpsvägen 138,  Göstorp ,  Laholm",0.0,0.0,0.0
+62,Skogsövägen 8B, Neglinge , Nacka,11500000.0,109.0,Lägenhet ,"Skogsövägen 8B,  Neglinge ,  Nacka",59.30048390820917,18.28830535642179,0.0
+63,Serenadgatan 55, Högaholm , Malmö,1510000.0,81.5,Lägenhet ,"Serenadgatan 55,  Högaholm ,  Malmö",0.0,0.0,0.0
+64,Orgelgatan 16, Kvarngärdet , Uppsala,3650000.0,99.0,Lägenhet ,"Orgelgatan 16,  Kvarngärdet ,  Uppsala",59.87216394206419,17.637200603620233,0.0
+65,Fiolgatan 6, Västra Frölunda , Göteborg,2000000.0,69.5,Lägenhet ,"Fiolgatan 6,  Västra Frölunda ,  Göteborg",0.0,0.0,0.0
+66,Hornstensvägen 7, Lundby , Örebro,3050000.0,125.0,Kedjehus ,"Hornstensvägen 7,  Lundby ,  Örebro",59.31237319335883,15.186964702578267,0.0
+67,Stugvägen 4K, Svärtinge , Norrköping,1280000.0,67.0,Lägenhet ,"Stugvägen 4K,  Svärtinge ,  Norrköping",58.64701495557037,16.026850105322843,0.0
+68,Bures gata 19A, Hyllie , Malmö,2525000.0,69.0,Lägenhet ,"Bures gata 19A,  Hyllie ,  Malmö",55.562817128429415,12.980173319150198,0.0
+69,Myrstuguvägen 231, Myrstuguberget , Huddinge,2000000.0,72.0,Lägenhet ,"Myrstuguvägen 231,  Myrstuguberget ,  Huddinge",59.2461627,17.8813784,0.0
+70,Guldsmedsgränd 5A, Trossö , Karlskrona,1475000.0,58.0,Lägenhet ,"Guldsmedsgränd 5A,  Trossö ,  Karlskrona",56.162871,15.5924456,0.0
+71,Handelsmyntet 16, Högsbo , Göteborg,2090000.0,35.0,Lägenhet ,"Handelsmyntet 16,  Högsbo ,  Göteborg",0.0,0.0,0.0
+72,Fogdevreten 8, Karolinska , Solna,2250000.0,34.0,Lägenhet ,"Fogdevreten 8,  Karolinska ,  Solna",0.0,0.0,0.0
+73,Ekgränd 4, Ljungsbro , Linköping,4400000.0,153.0,Villa ,"Ekgränd 4,  Ljungsbro ,  Linköping",58.5161193,15.5083221,0.0
+74,Asperögatan 8A, Sandarna , Göteborg,1530000.0,47.0,Lägenhet ,"Asperögatan 8A,  Sandarna ,  Göteborg",0.0,0.0,0.0
+75,Bondegatan 25B, Södermalm , Stockholm,10500000.0,83.0,Lägenhet ,"Bondegatan 25B,  Södermalm ,  Stockholm",59.3131313,18.0946701,0.0
+76,Erikstorpsgatan 5, Ribersborg , Malmö,4000000.0,76.0,Lägenhet ,"Erikstorpsgatan 5,  Ribersborg ,  Malmö",55.59916642834579,12.979492996175544,0.0
+77,Isgatan 11, Österplan , Örebro,1950000.0,55.0,Lägenhet ,"Isgatan 11,  Österplan ,  Örebro",0.0,0.0,0.0
+78,Astrakanvägen 13, Nilstorp , Lund,12100000.0,170.0,Villa ,"Astrakanvägen 13,  Nilstorp ,  Lund",55.69264655,13.202550286062593,0.0
+79,Trastvägen 3, Väster , Lund,1700000.0,25.0,Lägenhet ,"Trastvägen 3,  Väster ,  Lund",55.7034074,13.175313902480545,0.0
+80,Ymergatan 17B, Fålhagen , Uppsala,3795000.0,88.0,Lägenhet ,"Ymergatan 17B,  Fålhagen ,  Uppsala",59.8606419,17.6552613,0.0
+81,Norrtullsgatan 4, Vasastan , Stockholm,5850000.0,47.0,Lägenhet ,"Norrtullsgatan 4,  Vasastan ,  Stockholm",59.3421666,18.0518939,0.0
+82,Norra Pitholmsvägen 110, Norra Pitholm , Piteå,3325000.0,165.0,Villa ,"Norra Pitholmsvägen 110,  Norra Pitholm ,  Piteå",65.30307388671467,21.53213441780497,0.0
+83,Förås Norregård 2, Flisby , Nässjö,2600000.0,126.0,Gård ,"Förås Norregård 2,  Flisby ,  Nässjö",0.0,0.0,0.0
+84,Marielundsvägen 13, Klässbol , Arvika,1435000.0,196.0,Villa ,"Marielundsvägen 13,  Klässbol ,  Arvika",59.536656977849,12.751287457491156,0.0
+85,Kapellgatan 2C, Skåne , Klippan,295000.0,30.5,Lägenhet ,"Kapellgatan 2C,  Skåne ,  Klippan",56.131753482320875,13.130417569193728,0.0
+86,Odensgatan 16A, Främre Luthagen , Uppsala,2330000.0,33.0,Lägenhet ,"Odensgatan 16A,  Främre Luthagen ,  Uppsala",59.86211858902004,17.626671995426825,0.0
+87,Högsäter Ängsbacken 3, Högsäter , Eda,575000.0,40.0,Villa ,"Högsäter Ängsbacken 3,  Högsäter ,  Eda",0.0,0.0,0.0
+88,Lena Östergården, Alingsås , Vårgårda,4000000.0,170.0,Villa ,"Lena Östergården,  Alingsås ,  Vårgårda",0.0,0.0,0.0
+89,Lundagatan 6B, Västra Skogen , Solna,2500000.0,51.0,Lägenhet ,"Lundagatan 6B,  Västra Skogen ,  Solna",59.3542143,18.0046552,0.0
+90,Sannagatan 3A, Fjugesta , Lekeberg,860000.0,82.0,Lägenhet ,"Sannagatan 3A,  Fjugesta ,  Lekeberg",59.1720555987538,14.867096858620208,0.0
+91,Bergkullevägen 197, Sylte , Trollhättan,445000.0,66.0,Lägenhet ,"Bergkullevägen 197,  Sylte ,  Trollhättan",58.25785459167141,12.260105121998878,0.0
+92,Furuvägen 18A, Åsa , Oskarshamn,295000.0,29.5,Lägenhet ,"Furuvägen 18A,  Åsa ,  Oskarshamn",57.257334427548294,16.45673463241584,0.0
+93,Sorögatan 65, Kista , Stockholm,1270000.0,34.5,Lägenhet ,"Sorögatan 65,  Kista ,  Stockholm",59.40509165631795,17.938347731355872,0.0
+94,Snickerigatan 14, Telefonplan , Stockholm,8850000.0,102.0,Lägenhet ,"Snickerigatan 14,  Telefonplan ,  Stockholm",0.0,0.0,0.0
+95,Per Ludvig Lindgrens Terrass 4, Hammarby Sjöstad , Stockholm,9500000.0,86.0,Lägenhet ,"Per Ludvig Lindgrens Terrass 4,  Hammarby Sjöstad ,  Stockholm",0.0,0.0,0.0
+96,Ritorpsvägen 9, Frösunda , Solna,3200000.0,77.0,Lägenhet ,"Ritorpsvägen 9,  Frösunda ,  Solna",59.3761895,18.0071431,0.0
+97,Krysshammarvägen 6, Västra Skogen , Solna,3800000.0,82.5,Lägenhet ,"Krysshammarvägen 6,  Västra Skogen ,  Solna",59.349651,17.995393,0.0
+98,Tallåsvägen 10, Stigslund , Gävle,1310000.0,54.5,Lägenhet ,"Tallåsvägen 10,  Stigslund ,  Gävle",60.69231297065835,17.14849957778877,0.0
+99,Myggvägen 25, Ryd , Skövde,2850000.0,161.0,Villa ,"Myggvägen 25,  Ryd ,  Skövde",58.43166018593265,13.877055454943877,0.0
+100,Gränsvägen 20, Gamla Hulta , Ronneby,2000000.0,89.0,Villa ,"Gränsvägen 20,  Gamla Hulta ,  Ronneby",56.20427850928519,15.292477918632574,0.0
+101,Vales väg 13, Irsta , Västerås,4050000.0,160.0,Villa ,"Vales väg 13,  Irsta ,  Västerås",59.60853569793431,16.6846071480413,0.0
+102,Källgatan 8D, Rosenlund , Jönköping,3650000.0,74.0,Radhus ,"Källgatan 8D,  Rosenlund ,  Jönköping",57.780058065958,14.213319072340378,0.0
+103,Ringen 4A, Forssa , Borlänge,780000.0,49.5,Lägenhet ,"Ringen 4A,  Forssa ,  Borlänge",60.49414915,15.43077575,0.0
+104,Kung Sverres gata 38, Centrala Hisingen , Göteborg,4520000.0,117.0,Radhus ,"Kung Sverres gata 38,  Centrala Hisingen ,  Göteborg",0.0,0.0,0.0
+105,Toltorpsgatan 135, Toltorp , Mölndal,2995000.0,63.0,Lägenhet ,"Toltorpsgatan 135,  Toltorp ,  Mölndal",57.67001794707963,11.985806007420695,0.0
+106,Bernadottestigen 1B, Valsätra , Uppsala,1150000.0,31.0,Lägenhet ,"Bernadottestigen 1B,  Valsätra ,  Uppsala",59.82009366002019,17.61971080271448,0.0
+107,Fyrvaktarkroken 64, Blåsut , Stockholm,3100000.0,40.0,Lägenhet ,"Fyrvaktarkroken 64,  Blåsut ,  Stockholm",0.0,0.0,0.0
+108,Illerstigen 24, Ljungarum , Jönköping,4000000.0,130.0,Villa ,"Illerstigen 24,  Ljungarum ,  Jönköping",57.75485500442824,14.17196896567332,0.0
+109,Norra Bangatan 12C, Östermalm , Västervik,1275000.0,86.0,Lägenhet ,"Norra Bangatan 12C,  Östermalm ,  Västervik",0.0,0.0,0.0
+110,Sickla Strand 51, Sickla Strand , Nacka,4200000.0,56.5,Lägenhet ,"Sickla Strand 51,  Sickla Strand ,  Nacka",0.0,0.0,0.0
+111,Valhallavägen 148C, Östermalm , Stockholm,12300000.0,94.0,Lägenhet ,"Valhallavägen 148C,  Östermalm ,  Stockholm",59.347354384188094,18.065155628428293,0.0
+112,Björke Hakuse 202, Björke , Gotland,2660000.0,310.0,Fritidshus ,"Björke Hakuse 202,  Björke ,  Gotland",57.5074482,18.421306,0.0
+113,Fornminnesvägen 25, Centrum , Vallentuna,2250000.0,81.0,Lägenhet ,"Fornminnesvägen 25,  Centrum ,  Vallentuna",0.0,0.0,0.0
+114,Bastugatan 21, Södermalm , Stockholm,2775000.0,25.0,Lägenhet ,"Bastugatan 21,  Södermalm ,  Stockholm",59.3201796,18.061649,0.0
+115,Sjöbjörnsvägen 22, Gröndal , Stockholm,4050000.0,58.0,Lägenhet ,"Sjöbjörnsvägen 22,  Gröndal ,  Stockholm",59.3171085,18.0107203,0.0
+116,Hagavägen 1A, Hagalund , Borlänge,960000.0,60.5,Lägenhet ,"Hagavägen 1A,  Hagalund ,  Borlänge",60.4863957,15.4279935,0.0
+117,Fjällnäsgränd 4D, Fjällnäs , Gällivare,1340000.0,63.0,Lägenhet ,"Fjällnäsgränd 4D,  Fjällnäs ,  Gällivare",67.12583308691312,20.662208603017547,0.0
+118,Västertorpsvägen 10, Västertorp , Stockholm,3110000.0,64.5,Lägenhet ,"Västertorpsvägen 10,  Västertorp ,  Stockholm",59.29156195,17.975663091514715,0.0
+119,Skräddarevägen 13, Tofta , Varberg,2650000.0,106.0,Villa ,"Skräddarevägen 13,  Tofta ,  Varberg",57.1705234166683,12.29617943436593,0.0
+120,Gisselstadsvägen 5, Ljungby , Falkenberg,2000000.0,86.0,Villa ,"Gisselstadsvägen 5,  Ljungby ,  Falkenberg",56.991774141270135,12.585718372029817,0.0
+121,Repslagargatan 9, Söder  , Stockholm,4520000.0,42.0,Lägenhet ,"Repslagargatan 9,  Söder  ,  Stockholm",0.0,0.0,0.0
+122,Almgatan 5, Centrum , Årjäng,750000.0,81.0,Villa ,"Almgatan 5,  Centrum ,  Årjäng",0.0,0.0,0.0
+123,Sidensvansgatan 11, Skåne , Vellinge,5750000.0,170.0,Kedjehus ,"Sidensvansgatan 11,  Skåne ,  Vellinge",55.4778099,13.034903823567252,0.0
+124,Handelsvägen 28, Enskede , Stockholm,3950000.0,44.0,Lägenhet ,"Handelsvägen 28,  Enskede ,  Stockholm",59.2831765,18.0814738,0.0
+125,Strömsborgsvägen 42, Stockholms Skärgård , Norrtälje,2800000.0,2445.0,Tomt/Mark ,"Strömsborgsvägen 42,  Stockholms Skärgård ,  Norrtälje",0.0,0.0,0.0
+126,Föreningsgatan 3A, Vasastaden , Göteborg,3575000.0,63.0,Lägenhet ,"Föreningsgatan 3A,  Vasastaden ,  Göteborg",57.6949436415421,11.964938322045745,0.0
+127,Gråbergsgatan 3, Gransäter , Norrtälje,4300000.0,160.0,Villa ,"Gråbergsgatan 3,  Gransäter ,  Norrtälje",59.76263965,18.718487421793487,0.0
+128,Södra Kungsgatan 18B, Söder , Gävle,1265000.0,63.5,Lägenhet ,"Södra Kungsgatan 18B,  Söder ,  Gävle",0.0,0.0,0.0
+129,Bergskroken 10, Krokslätt , Mölndal,4500000.0,79.0,Lägenhet ,"Bergskroken 10,  Krokslätt ,  Mölndal",0.0,0.0,0.0
+130,Lm Ericssons väg 18, Telefonplan , Stockholm,4100000.0,54.0,Lägenhet ,"Lm Ericssons väg 18,  Telefonplan ,  Stockholm",0.0,0.0,0.0
+131,Gredbyvägen 6C, Rinmansparken , Eskilstuna,1020000.0,79.0,Lägenhet ,"Gredbyvägen 6C,  Rinmansparken ,  Eskilstuna",0.0,0.0,0.0
+132,Vintrosagatan 50, Hagsätra , Stockholm,1850000.0,73.0,Lägenhet ,"Vintrosagatan 50,  Hagsätra ,  Stockholm",59.260894449999995,18.019219716682244,0.0
+133,Kabeluddsvägen 6, Gribbylund , Täby,4300000.0,94.5,Lägenhet ,"Kabeluddsvägen 6,  Gribbylund ,  Täby",59.46392803538732,18.094775673212713,0.0
+134,Ringvägen 90, Åby , Haninge,1275000.0,57.0,Lägenhet ,"Ringvägen 90,  Åby ,  Haninge",59.1282946,18.1071819,0.0
+135,Mariehällsvägen 8, Mariehäll , Stockholm,4550000.0,78.5,Lägenhet ,"Mariehällsvägen 8,  Mariehäll ,  Stockholm",59.35972465,17.957452194654472,0.0
+136,Tjelvarvägen 12, Visby , Gotland,1325000.0,64.5,Lägenhet ,"Tjelvarvägen 12,  Visby ,  Gotland",0.0,0.0,0.0
+137,Lillebyvägen 21, Torslanda , Göteborg,4800000.0,65.0,Villa ,"Lillebyvägen 21,  Torslanda ,  Göteborg",57.74200830652513,11.73584267670572,0.0
+138,Västra Skrävlingevägen 88, Gula Höja , Malmö,1660000.0,80.5,Lägenhet ,"Västra Skrävlingevägen 88,  Gula Höja ,  Malmö",55.5842595,13.0610624,0.0
+139,Liljevägen 10, Villastaden , Gävle,1995000.0,73.0,Lägenhet ,"Liljevägen 10,  Villastaden ,  Gävle",0.0,0.0,0.0
+140,Molinvägen 20, Bromma Södra Ängby , Stockholm,10250000.0,149.0,Villa ,"Molinvägen 20,  Bromma Södra Ängby ,  Stockholm",59.33874985,17.893391422355037,0.0
+141,Djurgårdsvägen 15A, Bågen , Skara,780000.0,81.5,Lägenhet ,"Djurgårdsvägen 15A,  Bågen ,  Skara",0.0,0.0,0.0
+142,Torkel Knutssonsgatan 29, Södermalm , Stockholm,7275000.0,67.0,Lägenhet ,"Torkel Knutssonsgatan 29,  Södermalm ,  Stockholm",59.3180305,18.0573885,0.0
+143,Tisdagsvägen 13, Hökarängen , Stockholm,2700000.0,50.0,Lägenhet ,"Tisdagsvägen 13,  Hökarängen ,  Stockholm",59.2578406,18.0896922,0.0
+144,Bergsgatan 12A, Centrum , Norrtälje,1350000.0,43.0,Lägenhet ,"Bergsgatan 12A,  Centrum ,  Norrtälje",0.0,0.0,0.0
+145,Björkhällan 38, Askim , Göteborg,7000000.0,144.0,Villa ,"Björkhällan 38,  Askim ,  Göteborg",57.63485765,11.947409213632262,0.0
+146,Vikingavägen 48, Granlo , Sundsvall,850000.0,59.0,Lägenhet ,"Vikingavägen 48,  Granlo ,  Sundsvall",62.4049754,17.260890623267812,0.0
+147,Torngatan 24, Högelid , Mariestad,1690000.0,84.5,Lägenhet ,"Torngatan 24,  Högelid ,  Mariestad",58.71353429815907,13.856425786189558,0.0
+148,Blåbärsstigen 32, Svartudden , Piteå,4100000.0,165.0,Villa ,"Blåbärsstigen 32,  Svartudden ,  Piteå",65.31829654046436,21.519715129165753,0.0
+149,Röingegatan 135, Röinge , Hässleholm,1820000.0,85.0,Villa ,"Röingegatan 135,  Röinge ,  Hässleholm",56.1495781744004,13.801582416860128,0.0
+150,Åsdammsvägen 7B, Billdal , Göteborg,11000000.0,170.0,Villa ,"Åsdammsvägen 7B,  Billdal ,  Göteborg",57.5885396,11.93599685214459,0.0
+151,Hallonvägen 26, Oviken , Berg,1300000.0,55.0,Fritidshus ,"Hallonvägen 26,  Oviken ,  Berg",0.0,0.0,0.0
+152,Ängskärsgatan 4, Nedre Gärdet , Stockholm,6600000.0,56.0,Lägenhet ,"Ängskärsgatan 4,  Nedre Gärdet ,  Stockholm",0.0,0.0,0.0
+153,Bryggvägen 10, Gröndal , Stockholm,4100000.0,54.0,Lägenhet ,"Bryggvägen 10,  Gröndal ,  Stockholm",59.316992,17.9983588,0.0
+154,Regeringsgatan 70E, Östermalm , Stockholm,7995000.0,79.0,Lägenhet ,"Regeringsgatan 70E,  Östermalm ,  Stockholm",0.0,0.0,0.0
+155,Kungsängsgatan 41C, Centrala Uppsala , Uppsala,3425000.0,71.5,Lägenhet ,"Kungsängsgatan 41C,  Centrala Uppsala ,  Uppsala",0.0,0.0,0.0
+156,Opalvägen 58, Hyllinge , Åstorp,2900000.0,168.0,Villa ,"Opalvägen 58,  Hyllinge ,  Åstorp",56.10470071554903,12.876212750246468,0.0
+157,Grynbodgatan 15D, Gamla Väster , Malmö,2300000.0,50.0,Lägenhet ,"Grynbodgatan 15D,  Gamla Väster ,  Malmö",0.0,0.0,0.0
+158,John Bergs Plan 7, Kungsholmen , Stockholm,3800000.0,38.0,Lägenhet ,"John Bergs Plan 7,  Kungsholmen ,  Stockholm",59.3369178,18.0225581,0.0
+159,Myrgatan 14, Frändefors , Vänersborg,1150000.0,29.0,Villa ,"Myrgatan 14,  Frändefors ,  Vänersborg",58.498462698946746,12.269373864752948,0.0
+160,Lövskogsgatan 15B, Norra Guldheden , Göteborg,2900000.0,39.0,Lägenhet ,"Lövskogsgatan 15B,  Norra Guldheden ,  Göteborg",57.68765989078447,11.963721126021614,0.0
+161,Torkelsgatan 28A, Höganäs , Uppsala,3650000.0,90.5,Lägenhet ,"Torkelsgatan 28A,  Höganäs ,  Uppsala",59.86557465,17.648644468487042,0.0
+162,Furuvägen 12G, Åsa , Oskarshamn,330000.0,27.5,Lägenhet ,"Furuvägen 12G,  Åsa ,  Oskarshamn",57.257334427548294,16.45673463241584,0.0
+163,Månadsvägen 28, Jakobsberg , Järfälla,1800000.0,64.0,Lägenhet ,"Månadsvägen 28,  Jakobsberg ,  Järfälla",59.4227764,17.8202352,0.0
+164,Åsenvägen 52, Mariebo , Jönköping,3540000.0,125.0,Villa ,"Åsenvägen 52,  Mariebo ,  Jönköping",57.772165274966824,14.138816390512272,0.0
+165,Prinsagårdsgatan 5B, Kvänum , Vara,130000.0,63.5,Lägenhet ,"Prinsagårdsgatan 5B,  Kvänum ,  Vara",58.30409950682896,13.187375495329167,0.0
+166,Forsgatan 9, Karlsholm , Kristinehamn,760000.0,81.0,Radhus ,"Forsgatan 9,  Karlsholm ,  Kristinehamn",59.31921980892961,14.11839932274002,0.0
+167,Svalgränd 3B, Centrala Sundbyberg , Sundbyberg,2950000.0,39.0,Lägenhet ,"Svalgränd 3B,  Centrala Sundbyberg ,  Sundbyberg",59.3656482,17.9596339,0.0
+168,Strandbergsvägen 2, Gullänget , Örnsköldsvik,3950000.0,216.0,Villa ,"Strandbergsvägen 2,  Gullänget ,  Örnsköldsvik",63.30975558042209,18.71268554981532,0.0
+169,Nordenskiöldsgatan 13, Linnéstaden , Göteborg,4050000.0,62.0,Lägenhet ,"Nordenskiöldsgatan 13,  Linnéstaden ,  Göteborg",0.0,0.0,0.0
+170,Långholmsgatan 17, Södermalm , Stockholm,6400000.0,83.0,Lägenhet ,"Långholmsgatan 17,  Södermalm ,  Stockholm",59.3165017,18.0338928,0.0
+171,Norra Källåsvägen 76, Kållered , Mölndal,5750000.0,169.0,Villa ,"Norra Källåsvägen 76,  Kållered ,  Mölndal",57.61349845,12.04018462495467,0.0
+172,Surbrunnsgatan 7, Vasastan Östermalm , Stockholm,6910000.0,44.0,Lägenhet ,"Surbrunnsgatan 7,  Vasastan Östermalm ,  Stockholm",59.346891329649765,18.0632971092007,0.0
+173,Bågevägen 25C, Bosvedjan , Sundsvall,1050000.0,83.0,Lägenhet ,"Bågevägen 25C,  Bosvedjan ,  Sundsvall",62.4193072,17.3392585,0.0
+174,Kvarnvägen 32, Jakobsberg , Järfälla,1010000.0,39.0,Lägenhet ,"Kvarnvägen 32,  Jakobsberg ,  Järfälla",59.4246935,17.826605,0.0
+175,Norrtullsgatan 38, Vasastan , Stockholm,3100000.0,33.0,Lägenhet ,"Norrtullsgatan 38,  Vasastan ,  Stockholm",59.3497133,18.044833,0.0
+176,Stortorp 611, Stortorp , Örebro,1600000.0,75.0,Villa ,"Stortorp 611,  Stortorp ,  Örebro",0.0,0.0,0.0
+177,Elgentorpsvägen 14, Tullinge , Botkyrka,2290000.0,75.0,Lägenhet ,"Elgentorpsvägen 14,  Tullinge ,  Botkyrka",59.20893567005936,17.899303821768175,0.0
+178,Hertig Karls gata 25, Gärdet , Mariestad,320000.0,53.5,Lägenhet ,"Hertig Karls gata 25,  Gärdet ,  Mariestad",0.0,0.0,0.0
+179,Västra Torggatan 8, Tingvallastaden , Karlstad,1572000.0,32.0,Lägenhet ,"Västra Torggatan 8,  Tingvallastaden ,  Karlstad",59.37946505,13.501989312608616,0.0
+180,Prästgårdsgatan 14, Skåne , Svedala,5595000.0,161.0,Villa ,"Prästgårdsgatan 14,  Skåne ,  Svedala",0.0,0.0,0.0
+181,Fabrikörvägen 10E, Nacka Strand , Nacka,14600000.0,133.0,Lägenhet ,"Fabrikörvägen 10E,  Nacka Strand ,  Nacka",59.31664066005863,18.156446892351372,0.0
+182,Rindögatan 4, Gärdet , Stockholm,3695000.0,37.0,Lägenhet ,"Rindögatan 4,  Gärdet ,  Stockholm",59.3475572,18.0941241,0.0
+183,Södra Tennisgränd 3, Hyllie , Malmö,1980000.0,55.0,Lägenhet ,"Södra Tennisgränd 3,  Hyllie ,  Malmö",55.5684228,12.9754249,0.0
+184,Skönviksvägen 286, Stureby , Stockholm,1995000.0,31.0,Lägenhet ,"Skönviksvägen 286,  Stureby ,  Stockholm",59.2721429,18.0537025,0.0
+185,Ormbergsvägen 11, Gröndal , Stockholm,5400000.0,65.0,Lägenhet ,"Ormbergsvägen 11,  Gröndal ,  Stockholm",59.3170723,18.0086664,0.0
+186,Essinge Brogata 12, Kungsholmen , Stockholm,2950000.0,35.0,Lägenhet ,"Essinge Brogata 12,  Kungsholmen ,  Stockholm",59.3251081,18.0061599,0.0
+187,Hantverkaregatan 27, Trossö , Karlskrona,2750000.0,116.0,Lägenhet ,"Hantverkaregatan 27,  Trossö ,  Karlskrona",56.1609833,15.580052170187876,0.0
+188,Hällbygatan 19, Luthagen , Uppsala,3870000.0,105.0,Lägenhet ,"Hällbygatan 19,  Luthagen ,  Uppsala",59.86613465627837,17.609691497138247,0.0
+189,Skolgatan 12B, Centrala Uppsala , Uppsala,3000000.0,52.0,Lägenhet ,"Skolgatan 12B,  Centrala Uppsala ,  Uppsala",0.0,0.0,0.0
+190,Bullerbygatan 99, Gyllins Trädgård , Malmö,2300000.0,77.0,Lägenhet ,"Bullerbygatan 99,  Gyllins Trädgård ,  Malmö",55.59228578246351,13.088827197910188,0.0
+191,Glöstorpsvägen 20, Tuve , Göteborg,1600000.0,63.0,Lägenhet ,"Glöstorpsvägen 20,  Tuve ,  Göteborg",57.753099,11.9303702,0.0
+192,Stortorget 5, Skåne , Vellinge,3815000.0,91.0,Lägenhet ,"Stortorget 5,  Skåne ,  Vellinge",55.47039015,13.01951275,0.0
+193,Bäckvägen 27, Grytnäs , Kalix,520000.0,104.0,Villa ,"Bäckvägen 27,  Grytnäs ,  Kalix",65.84273657294402,23.133923800377616,0.0
+194,Kornhillsvägen 19A, Vallås , Halmstad,1555000.0,75.0,Lägenhet ,"Kornhillsvägen 19A,  Vallås ,  Halmstad",56.68153211960652,12.915818207351071,0.0
+195,Skårekullsvägen 14, Kärda , Värnamo,1775000.0,110.0,Villa ,"Skårekullsvägen 14,  Kärda ,  Värnamo",57.17847128402954,13.921118365100744,0.0
+196,Villagatan 65B, Centrum , Örnsköldsvik,585000.0,58.5,Lägenhet ,"Villagatan 65B,  Centrum ,  Örnsköldsvik",0.0,0.0,0.0
+197,Pilvägen 76, Helenelund , Sollentuna,1800000.0,48.0,Lägenhet ,"Pilvägen 76,  Helenelund ,  Sollentuna",59.4118286,17.9655533,0.0
+198,Wingårdsgatan 11B, Kålltorp , Göteborg,2850000.0,55.0,Lägenhet ,"Wingårdsgatan 11B,  Kålltorp ,  Göteborg",57.7068159,12.024994,0.0
+199,Strindbergsgatan 53, Gärdet , Stockholm,12000000.0,106.0,Lägenhet ,"Strindbergsgatan 53,  Gärdet ,  Stockholm",59.3410548,18.0955559,0.0
+200,Sörmans väg 13H, Lyckeby , Karlskrona,1900000.0,104.0,Lägenhet ,"Sörmans väg 13H,  Lyckeby ,  Karlskrona",56.2022129,15.6584703,0.0
+201,Gäddvägen 6, Frösön , Östersund,4625000.0,134.0,Villa ,"Gäddvägen 6,  Frösön ,  Östersund",0.0,0.0,0.0
+202,Glasbygatan, Östertälje , Södertälje,1700000.0,51.0,Lägenhet ,"Glasbygatan,  Östertälje ,  Södertälje",59.19041075,17.6886183,0.0
+203,Tösse Hannebol 720, Käppesjön , Åmål,1000000.0,55.0,Villa ,"Tösse Hannebol 720,  Käppesjön ,  Åmål",0.0,0.0,0.0
+204,Nynäsvägen 332, Gamla Enskede , Stockholm,2850000.0,43.0,Lägenhet ,"Nynäsvägen 332,  Gamla Enskede ,  Stockholm",59.2839209,18.0895829,0.0
+205,Kryddpeppargatan 8, Angered , Göteborg,1870000.0,111.0,Radhus ,"Kryddpeppargatan 8,  Angered ,  Göteborg",0.0,0.0,0.0
+206,Östgötagatan 29, Södermalm , Stockholm,9495000.0,89.0,Lägenhet ,"Östgötagatan 29,  Södermalm ,  Stockholm",59.3154392,18.0761781,0.0
+207,Lättorp 109B, Kåremo , Kalmar,3400000.0,156.0,Villa ,"Lättorp 109B,  Kåremo ,  Kalmar",0.0,0.0,0.0
+208,Fortunagatan 29, Kålgården , Jönköping,3400000.0,100.0,Lägenhet ,"Fortunagatan 29,  Kålgården ,  Jönköping",57.77671115388118,14.17795324409554,0.0
+209,Storängsvägen 1, Vendelsö , Haninge,6000000.0,130.0,Villa ,"Storängsvägen 1,  Vendelsö ,  Haninge",59.19999555,18.198262438986653,0.0
+210,Virebergsvägen 3, Vireberg , Solna,3665000.0,78.0,Lägenhet ,"Virebergsvägen 3,  Vireberg ,  Solna",0.0,0.0,0.0
+211,Sofiagatan 62G, Strömmensberg , Göteborg,2700000.0,46.0,Lägenhet ,"Sofiagatan 62G,  Strömmensberg ,  Göteborg",57.7212807,12.021064,0.0
+212,Edagränd 6, Farsta , Stockholm,4600000.0,93.0,Lägenhet ,"Edagränd 6,  Farsta ,  Stockholm",59.2384986,18.0994596,0.0
+213,Telegatan 1C, Centrala , Filipstad,205000.0,73.5,Lägenhet ,"Telegatan 1C,  Centrala ,  Filipstad",0.0,0.0,0.0
+214,Råsundavägen 178, Råsunda , Solna,6750000.0,97.0,Lägenhet ,"Råsundavägen 178,  Råsunda ,  Solna",59.3637839,17.9787582,0.0
+215,Olshammarsgatan 64, Ormkärr , Stockholm,2200000.0,71.0,Lägenhet ,"Olshammarsgatan 64,  Ormkärr ,  Stockholm",0.0,0.0,0.0
+216,Virkesvägen 9C, Hammarby Sjöstad , Stockholm,4425000.0,55.5,Lägenhet ,"Virkesvägen 9C,  Hammarby Sjöstad ,  Stockholm",0.0,0.0,0.0
+217,Carl-Gustaf Lindstedts gata 8, Kungsholmen , Stockholm,9550000.0,121.0,Lägenhet ,"Carl-Gustaf Lindstedts gata 8,  Kungsholmen ,  Stockholm",59.3337514,18.0439194,0.0
+218,Befälsgatan 8, Kviberg , Göteborg,2460000.0,74.5,Lägenhet ,"Befälsgatan 8,  Kviberg ,  Göteborg",57.74203912985635,12.027043359777652,0.0
+219,Skommarsbacken 33A, Valbo , Gävle,1650000.0,77.5,Lägenhet ,"Skommarsbacken 33A,  Valbo ,  Gävle",60.647430182678534,17.015664100608426,0.0
+220,Paketgränd 15, Enskede , Stockholm,4675000.0,79.0,Lägenhet ,"Paketgränd 15,  Enskede ,  Stockholm",59.273779871718155,18.068195955813323,0.0
+221,Skolgatan 45C, Centrum , Uppsala,1095000.0,16.5,Lägenhet ,"Skolgatan 45C,  Centrum ,  Uppsala",59.86279795652053,17.633339196968617,0.0
+222,Flygfältsvägen 19, Barkarbystaden , Järfälla,1995000.0,45.0,Lägenhet ,"Flygfältsvägen 19,  Barkarbystaden ,  Järfälla",59.4113735,17.8685909,0.0
+223,Norra Bogesundsgatan 10, Gräshagen , Jönköping,1565000.0,40.0,Lägenhet ,"Norra Bogesundsgatan 10,  Gräshagen ,  Jönköping",57.76360200258834,14.133321237750044,0.0
+224,Köpmansgatan 7, Centrum , Nässjö,950000.0,71.5,Lägenhet ,"Köpmansgatan 7,  Centrum ,  Nässjö",0.0,0.0,0.0
+225,Rabattvägen 42, Vällingby , Stockholm,2410000.0,69.5,Lägenhet ,"Rabattvägen 42,  Vällingby ,  Stockholm",59.37344808485397,17.846174237843186,0.0
+226,Klockhammarsgränd 2, Hagsätra , Stockholm,1600000.0,37.5,Lägenhet ,"Klockhammarsgränd 2,  Hagsätra ,  Stockholm",59.26358655,18.0217068,0.0
+227,Smedsbacksgatan 7, Gärdet , Stockholm,4250000.0,41.0,Lägenhet ,"Smedsbacksgatan 7,  Gärdet ,  Stockholm",59.3480485,18.0988912,0.0
+228,Allégatan 10, Skaraborg , Vara,580000.0,57.5,Lägenhet ,"Allégatan 10,  Skaraborg ,  Vara",0.0,0.0,0.0
+229,Grindtorpsvägen 29, Grindtorp , Täby,3725000.0,95.0,Lägenhet ,"Grindtorpsvägen 29,  Grindtorp ,  Täby",59.44081964474129,18.075534728026792,0.0
+230,Tellusvägen 11, Högsäter , Färgelanda,460000.0,123.0,Lägenhet ,"Tellusvägen 11,  Högsäter ,  Färgelanda",58.654315384941434,12.052572005428814,0.0
+231,Adress saknas, Skåne , Bjuv,1450000.0,85.0,Villa ,"Adress saknas,  Skåne ,  Bjuv",0.0,0.0,0.0
+232,Vinnarcirkeln 5, Täby Park , Täby,3025000.0,44.0,Lägenhet ,"Vinnarcirkeln 5,  Täby Park ,  Täby",59.442887295859435,18.08567910334395,0.0
+233,Skalldalsbacken 1, Hovås , Göteborg,2080000.0,35.0,Lägenhet ,"Skalldalsbacken 1,  Hovås ,  Göteborg",57.61396475125014,11.943188804086892,0.0
+234,Elviras Stig 15, Gräddö , Norrtälje,450000.0,2184.0,Tomt/Mark ,"Elviras Stig 15,  Gräddö ,  Norrtälje",0.0,0.0,0.0
+235,Responsgatan 12, Telefonplan , Stockholm,2750000.0,36.0,Lägenhet ,"Responsgatan 12,  Telefonplan ,  Stockholm",0.0,0.0,0.0
+236,Regementsgatan 25A, Ribersborg , Malmö,1275000.0,25.0,Lägenhet ,"Regementsgatan 25A,  Ribersborg ,  Malmö",55.59781714837601,12.97123483656882,0.0
+237,Södra Långgatan 41, Råsunda , Solna,3495000.0,54.0,Lägenhet ,"Södra Långgatan 41,  Råsunda ,  Solna",59.3657945,18.00226765527831,0.0
+238,Maria Prästgårdsgata 21, Södermalm , Stockholm,1300000.0,11.0,Lägenhet ,"Maria Prästgårdsgata 21,  Södermalm ,  Stockholm",59.3158272,18.061758,0.0
+239,Barytonvägen 87, Skogås , Huddinge,3465000.0,83.0,Radhus ,"Barytonvägen 87,  Skogås ,  Huddinge",59.21757195,18.157923978613866,0.0
+240,Bodöbacken 3, Örarna , Luleå,1700000.0,111.0,Villa ,"Bodöbacken 3,  Örarna ,  Luleå",65.70845705379888,22.248845548514417,0.0
+241,Alphyddevägen 9, Alphyddan , Nacka,2400000.0,38.5,Lägenhet ,"Alphyddevägen 9,  Alphyddan ,  Nacka",59.3074169,18.1257125,0.0
+242,Vallmostigen 27, Bro , Upplands-Bro,1700000.0,77.0,Radhus ,"Vallmostigen 27,  Bro ,  Upplands-Bro",59.514521599999995,17.65286665,0.0
+243,Hundramannavägen 23, Eslöv Backarna , Eslöv,3745000.0,131.0,Villa ,"Hundramannavägen 23,  Eslöv Backarna ,  Eslöv",55.8315801,13.294526585209631,0.0
+244,Fågelstavägen 12, Bandhagen , Stockholm,1300000.0,19.5,Lägenhet ,"Fågelstavägen 12,  Bandhagen ,  Stockholm",59.2697029,18.0467044,0.0
+245,Rubingatan 28, Västra Frölunda , Göteborg,2050000.0,79.0,Lägenhet ,"Rubingatan 28,  Västra Frölunda ,  Göteborg",0.0,0.0,0.0
+246,Stationsgatan 1B, Nedre Stadsdelen , Boden,690000.0,61.0,Lägenhet ,"Stationsgatan 1B,  Nedre Stadsdelen ,  Boden",0.0,0.0,0.0
+247,Grenvägen 51, Vendelsö , Haninge,5700000.0,128.0,Villa ,"Grenvägen 51,  Vendelsö ,  Haninge",0.0,0.0,0.0
+248,Fingerboda 115, Fingerboda , Nora,840000.0,42.0,Gård ,"Fingerboda 115,  Fingerboda ,  Nora",0.0,0.0,0.0
+249,Mandelstensvägen 67, Lundby , Örebro,1150000.0,66.0,Lägenhet ,"Mandelstensvägen 67,  Lundby ,  Örebro",59.311295332863025,15.18988116553576,0.0
+250,Barrstigen 1, Lundåkra , Gislaved,1895000.0,129.0,Villa ,"Barrstigen 1,  Lundåkra ,  Gislaved",57.29006237377924,13.53864003375493,0.0
+251,Stafettgatan 4B, Lunden , Göteborg,2795000.0,34.0,Lägenhet ,"Stafettgatan 4B,  Lunden ,  Göteborg",57.7077254,12.0005155,0.0
+252,Oderljungavägen 5, Skåne , Klippan,2350000.0,99.0,Villa ,"Oderljungavägen 5,  Skåne ,  Klippan",56.14229603419235,13.190079936379302,0.0
+253,Sundholmsgatan 20, Ön , Malmö,3600000.0,107.0,Lägenhet ,"Sundholmsgatan 20,  Ön ,  Malmö",0.0,0.0,0.0
+254,Johan Skyttes väg 398, Långbro Park , Stockholm,5300000.0,81.0,Lägenhet ,"Johan Skyttes väg 398,  Långbro Park ,  Stockholm",0.0,0.0,0.0
+255,Porsvägen 38, Hässelby , Stockholm,2100000.0,936.0,Tomt/Mark ,"Porsvägen 38,  Hässelby ,  Stockholm",59.37169579023264,17.822433537903287,0.0
+256,Västra Ryttmästaregatan 25, Slottsstaden , Malmö,3695000.0,79.5,Lägenhet ,"Västra Ryttmästaregatan 25,  Slottsstaden ,  Malmö",0.0,0.0,0.0
+257,Lingvägen 223, Hökarängen , Stockholm,3180000.0,80.0,Lägenhet ,"Lingvägen 223,  Hökarängen ,  Stockholm",59.2529521,18.0930849,0.0
+258,Ginstvägen 15, Bro , Upplands-Bro,4700000.0,133.0,Villa ,"Ginstvägen 15,  Bro ,  Upplands-Bro",59.51931315,17.662676599999998,0.0
+259,Vikingsgatan 3, Tågaborg , Helsingborg,5495000.0,131.5,Lägenhet ,"Vikingsgatan 3,  Tågaborg ,  Helsingborg",56.05436885,12.689698656173174,0.0
+260,Orselforsvägen 25, Mockfjärd , Gagnef,700000.0,80.0,Villa ,"Orselforsvägen 25,  Mockfjärd ,  Gagnef",60.49644319615728,14.950956422644373,0.0
+261,Malmsjövägen 5, Uttran , Botkyrka,4100000.0,134.0,Villa ,"Malmsjövägen 5,  Uttran ,  Botkyrka",59.18896810732067,17.803369902591278,0.0
+262,Parkgatan 5, Söder , Uddevalla,2600000.0,97.0,Lägenhet ,"Parkgatan 5,  Söder ,  Uddevalla",0.0,0.0,0.0
+263,Trollhasselgatan 2, Centrala Hisingen , Göteborg,3300000.0,76.0,Lägenhet ,"Trollhasselgatan 2,  Centrala Hisingen ,  Göteborg",0.0,0.0,0.0
+264,Gamla Tuvevägen 4B, Centrala Hisingen , Göteborg,2350000.0,54.0,Lägenhet ,"Gamla Tuvevägen 4B,  Centrala Hisingen ,  Göteborg",0.0,0.0,0.0
+265,Fogdebacksvägen 45-15, Börringe , Svedala,4750000.0,145.0,Villa ,"Fogdebacksvägen 45-15,  Börringe ,  Svedala",0.0,0.0,0.0
+266,Ottfjällsvägen 54, Torvalla , Östersund,700000.0,66.5,Lägenhet ,"Ottfjällsvägen 54,  Torvalla ,  Östersund",63.15014005946401,14.726695320658466,0.0
+267,Liljegränd 38, Trollbäcken , Tyresö,3195000.0,102.0,Parhus ,"Liljegränd 38,  Trollbäcken ,  Tyresö",59.2223097,18.2273859,0.0
+268,Stabbgårdsgatan 37, Hemse , Gotland,2400000.0,108.0,Villa ,"Stabbgårdsgatan 37,  Hemse ,  Gotland",57.23339477953221,18.377159328270015,0.0
+269,Norra Vånga Postgården 7, Norra Vånga , Vara,1175000.0,122.0,Villa ,"Norra Vånga Postgården 7,  Norra Vånga ,  Vara",0.0,0.0,0.0
+270,Scheelegatan 14B, Torpa , Jönköping,1800000.0,42.0,Lägenhet ,"Scheelegatan 14B,  Torpa ,  Jönköping",57.7771813,14.15429905,0.0
+271,Ostindiefararen 53, Eriksberg , Göteborg,4400000.0,82.0,Lägenhet ,"Ostindiefararen 53,  Eriksberg ,  Göteborg",57.6984575,11.9102561,0.0
+272,Lambergsgatan 2B, Övre Eriksberg , Göteborg,2050000.0,47.0,Lägenhet ,"Lambergsgatan 2B,  Övre Eriksberg ,  Göteborg",0.0,0.0,0.0
+273,Tavestavägen 12, Järna , Södertälje,3300000.0,120.0,Villa ,"Tavestavägen 12,  Järna ,  Södertälje",59.0924296,17.572059519094488,0.0
+274,Hällestadsvägen 92, Dalby , Lund,2700000.0,119.0,Radhus ,"Hällestadsvägen 92,  Dalby ,  Lund",55.66474335,13.3572178,0.0
+275,Vappeby 5, Fjärdhundra , Enköping,2990000.0,170.0,Gård ,"Vappeby 5,  Fjärdhundra ,  Enköping",0.0,0.0,0.0
+276,Slätbaksvägen 48, Årsta , Stockholm,2900000.0,42.5,Lägenhet ,"Slätbaksvägen 48,  Årsta ,  Stockholm",59.2974636,18.0648745,0.0
+277,Götgatan 30C, Luthagen , Uppsala,2570000.0,58.0,Lägenhet ,"Götgatan 30C,  Luthagen ,  Uppsala",59.8660322,17.6226711,0.0
+278,Fläderstigen 4, Bråtenpark , Mariestad,300000.0,85.0,Lägenhet ,"Fläderstigen 4,  Bråtenpark ,  Mariestad",0.0,0.0,0.0
+279,Blockvägen 16, Hemmanet , Sundsvall,2600000.0,194.0,Villa ,"Blockvägen 16,  Hemmanet ,  Sundsvall",62.307386300000005,17.35893565000001,0.0
+280,Astrid Fredrikssons väg 23, Lilla Källviken , Falun,2950000.0,122.0,Kedjehus ,"Astrid Fredrikssons väg 23,  Lilla Källviken ,  Falun",60.57486115,15.62385575,0.0
+281,Åtorps Udde 23, Åtorp , Lerum,3250000.0,59.5,Lägenhet ,"Åtorps Udde 23,  Åtorp ,  Lerum",0.0,0.0,0.0
+282,Skolvägen 28B, Trollbäcken , Tyresö,6650000.0,173.0,Villa ,"Skolvägen 28B,  Trollbäcken ,  Tyresö",59.2235117,18.215280901836724,0.0
+283,Dukvägen 33, Riksby , Stockholm,3720000.0,68.0,Lägenhet ,"Dukvägen 33,  Riksby ,  Stockholm",59.33869296194763,17.949634974076275,0.0
+284,Östermalmsgatan 60, Östermalm , Motala,2050000.0,125.0,Villa ,"Östermalmsgatan 60,  Östermalm ,  Motala",58.54393215913927,15.054187240221658,0.0
+285,Östra Promenaden 45A, Oxelbergen , Norrköping,2545000.0,73.0,Lägenhet ,"Östra Promenaden 45A,  Oxelbergen ,  Norrköping",58.5872793,16.2004591,0.0
+286,Värtavägen 18A, Östermalm , Stockholm,3225000.0,21.0,Lägenhet ,"Värtavägen 18A,  Östermalm ,  Stockholm",59.33918299591214,18.092766446972337,0.0
+287,Pilgrimsvägen 54B, Aspudden , Stockholm,2810000.0,34.5,Lägenhet ,"Pilgrimsvägen 54B,  Aspudden ,  Stockholm",59.3053164,18.0015864,0.0
+288,Församlingsgatan 4, Söder , Helsingborg,1170000.0,70.5,Lägenhet ,"Församlingsgatan 4,  Söder ,  Helsingborg",56.038189599999995,12.706546271837553,0.0
+289,Mörtbergsvägen 17, Mörtnäs , Värmdö,11400000.0,160.0,Villa ,"Mörtbergsvägen 17,  Mörtnäs ,  Värmdö",59.3172939,18.4420784,0.0
+290,Åmänningevägen 14, Årsta , Stockholm,3220000.0,54.0,Lägenhet ,"Åmänningevägen 14,  Årsta ,  Stockholm",59.2980562,18.0450417,0.0
+291,Kaptensgatan 7, Östermalm , Stockholm,4500000.0,35.0,Lägenhet ,"Kaptensgatan 7,  Östermalm ,  Stockholm",59.3328505,18.0811279,0.0
+292,Sjöblads väg 37, Rosengård , Malmö,1895000.0,102.0,Lägenhet ,"Sjöblads väg 37,  Rosengård ,  Malmö",0.0,0.0,0.0
+293,Kristinegatan 7B, Centrum , Falun,1598000.0,65.0,Lägenhet ,"Kristinegatan 7B,  Centrum ,  Falun",0.0,0.0,0.0
+294,Samtingsgatan 6, Storgärdet , Strängnäs,1175000.0,41.0,Lägenhet ,"Samtingsgatan 6,  Storgärdet ,  Strängnäs",0.0,0.0,0.0
+295,Västra Varvsgatan 20A, Centrum , Luleå,1095000.0,52.0,Lägenhet ,"Västra Varvsgatan 20A,  Centrum ,  Luleå",0.0,0.0,0.0
+296,Sandalmakarbacken 5, Solberga , Stockholm,2750000.0,65.0,Lägenhet ,"Sandalmakarbacken 5,  Solberga ,  Stockholm",59.2839565,18.0125353,0.0
+297,Skvadronsgatan 14, Södra Ekkällan , Linköping,2195000.0,103.0,Lägenhet ,"Skvadronsgatan 14,  Södra Ekkällan ,  Linköping",58.394299931638,15.626092064419671,0.0
+298,Sörkåsavägen 64, Sörkåsa , Ronneby,4600000.0,158.0,Villa ,"Sörkåsavägen 64,  Sörkåsa ,  Ronneby",0.0,0.0,0.0
+299,Skjutsbacken 34, Domarudden , Österåker,10500000.0,162.0,Villa ,"Skjutsbacken 34,  Domarudden ,  Österåker",0.0,0.0,0.0
+300,Öljersjö 212, Öljersjö , Karlskrona,3150000.0,190.0,Villa ,"Öljersjö 212,  Öljersjö ,  Karlskrona",56.18385493019392,15.707779742131006,0.0
+301,Bodalsvägen 45, Baggeby , Lidingö,4295000.0,77.0,Lägenhet ,"Bodalsvägen 45,  Baggeby ,  Lidingö",59.35004116243648,18.13888098441062,0.0
+302,Kapplandsgatan 52, Högsbo , Göteborg,2100000.0,58.0,Lägenhet ,"Kapplandsgatan 52,  Högsbo ,  Göteborg",0.0,0.0,0.0
+303,Lingonstigen 6, Rimforsa , Kinda,3625000.0,121.0,Villa ,"Lingonstigen 6,  Rimforsa ,  Kinda",58.14236275,15.66698415,0.0
+304,Enebygatan 40, Nordantill , Norrköping,7000000.0,167.0,Villa ,"Enebygatan 40,  Nordantill ,  Norrköping",0.0,0.0,0.0
+305,Malmgårdsvägen 10, Södermalm , Stockholm,4450000.0,44.0,Lägenhet ,"Malmgårdsvägen 10,  Södermalm ,  Stockholm",59.3100577,18.0880681,0.0
+306,Nackstavägen 46B, Nacksta , Sundsvall,360000.0,76.0,Lägenhet ,"Nackstavägen 46B,  Nacksta ,  Sundsvall",62.3916978,17.2540116,0.0
+307,Loftvägen 14, Skogås , Huddinge,1700000.0,66.0,Lägenhet ,"Loftvägen 14,  Skogås ,  Huddinge",59.2202815,18.1420921,0.0
+308,Norra Fjällnäs 477, Hemavan , Storuman,875000.0,53.0,Fritidshus ,"Norra Fjällnäs 477,  Hemavan ,  Storuman",0.0,0.0,0.0
+309,Gimogatan 8B, Luthagen , Uppsala,2625000.0,85.0,Lägenhet ,"Gimogatan 8B,  Luthagen ,  Uppsala",59.8681555,17.6096675,0.0
+310,Stenkumlaväg 53, Visby , Gotland,3300000.0,80.0,Lägenhet ,"Stenkumlaväg 53,  Visby ,  Gotland",57.620078453310136,18.28411676838583,0.0
+311,Norrgårdsvägen 1, Olofsbo , Falkenberg,3550000.0,81.0,Villa ,"Norrgårdsvägen 1,  Olofsbo ,  Falkenberg",56.92146034841716,12.388615753122826,0.0
+312,Jämtlandsvägen 13, Ormsta , Vallentuna,4170000.0,98.0,Villa ,"Jämtlandsvägen 13,  Ormsta ,  Vallentuna",59.54876404644365,18.085854563597763,0.0
+313,Domherrevägen 15, Skaraborg , Mariestad,2600000.0,133.0,Villa ,"Domherrevägen 15,  Skaraborg ,  Mariestad",0.0,0.0,0.0
+314,Ringgatan 43C, Luthagen , Uppsala,2675000.0,66.0,Lägenhet ,"Ringgatan 43C,  Luthagen ,  Uppsala",59.86422383605361,17.61703372087897,0.0
+315,Överhärdevägen 3, Valbo , Gävle,3570000.0,159.0,Gård ,"Överhärdevägen 3,  Valbo ,  Gävle",0.0,0.0,0.0
+316,Sonnbo 5:10, Sonnboviken , Avesta,1450000.0,389177.0,Gård ,"Sonnbo 5:10,  Sonnboviken ,  Avesta",60.12102327638861,16.284100894031802,0.0
+317,Bondebacken 15, Västermalm , Västerås,1095000.0,33.0,Lägenhet ,"Bondebacken 15,  Västermalm ,  Västerås",59.6079705,16.5366767,0.0
+318,Trålargränd 51, Viksjö , Järfälla,3050000.0,86.0,Radhus ,"Trålargränd 51,  Viksjö ,  Järfälla",59.4087362392351,17.792864393345003,0.0
+319,Talgoxevägen 1, Brevik , Tyresö,5350000.0,120.0,Villa ,"Talgoxevägen 1,  Brevik ,  Tyresö",0.0,0.0,0.0
+320,Göketorpsgatan 28A, Örgryte , Göteborg,3850000.0,77.5,Lägenhet ,"Göketorpsgatan 28A,  Örgryte ,  Göteborg",0.0,0.0,0.0
+321,Uggleberget 24, Nya Hovås , Göteborg,2800000.0,47.0,Lägenhet ,"Uggleberget 24,  Nya Hovås ,  Göteborg",0.0,0.0,0.0
+322,Korsgatan 6, Munksjöstaden , Jönköping,1650000.0,30.0,Lägenhet ,"Korsgatan 6,  Munksjöstaden ,  Jönköping",57.77184316409372,14.157674596065627,0.0
+323,Bodavägen 6, Kungstomt , Uppsala,1895000.0,76.0,Fritidshus ,"Bodavägen 6,  Kungstomt ,  Uppsala",60.12932042688611,17.803339136944764,0.0
+324,Olseängen 22, Olseröd , Kungälv,1700000.0,72.0,Lägenhet ,"Olseängen 22,  Olseröd ,  Kungälv",57.88999865299694,11.96325768298693,0.0
+325,Skrikebo Stubbelid 1, Skrikebo , Oskarshamn,2150000.0,130.0,Gård ,"Skrikebo Stubbelid 1,  Skrikebo ,  Oskarshamn",0.0,0.0,0.0
+326,Katrineholmsvägen 40, Åby , Norrköping,3500000.0,200.0,Villa ,"Katrineholmsvägen 40,  Åby ,  Norrköping",58.6736338,16.1811073,0.0
+327,Skepparegatan 18C, Trossö , Karlskrona,2500000.0,103.0,Lägenhet ,"Skepparegatan 18C,  Trossö ,  Karlskrona",56.1590456,15.5813496,0.0
+328,Västerskogsvägen 3, Vaxholm Resarö , Vaxholm,9750000.0,235.0,Villa ,"Västerskogsvägen 3,  Vaxholm Resarö ,  Vaxholm",0.0,0.0,0.0
+329,Heimdalsgatan 18, Märsta , Sigtuna,1195000.0,72.0,Lägenhet ,"Heimdalsgatan 18,  Märsta ,  Sigtuna",59.6163337,17.8375735,0.0
+330,Birger Jarlsgatan 115A, Vasastan , Stockholm,6550000.0,34.0,Lägenhet ,"Birger Jarlsgatan 115A,  Vasastan ,  Stockholm",59.3493305,18.0588084,0.0
+331,Gjuterigatan 76, Edvinshem , Ystad,2650000.0,161.0,Lägenhet ,"Gjuterigatan 76,  Edvinshem ,  Ystad",55.4258093049909,13.805531307195654,0.0
+332,Rosensköldsgatan 9, Johanneberg , Göteborg,2380000.0,29.0,Lägenhet ,"Rosensköldsgatan 9,  Johanneberg ,  Göteborg",57.6891106,11.9822309,0.0
+333,Östergatan 4C, Skaraborg , Tidaholm,1750000.0,92.0,Radhus ,"Östergatan 4C,  Skaraborg ,  Tidaholm",0.0,0.0,0.0
+334,Grönviksvägen 10, Norra Nynäshamn , Nynäshamn,1895000.0,73.0,Lägenhet ,"Grönviksvägen 10,  Norra Nynäshamn ,  Nynäshamn",0.0,0.0,0.0
+335,Vretgatan 15, Kumlaby , Kumla,1570000.0,105.0,Parhus ,"Vretgatan 15,  Kumlaby ,  Kumla",0.0,0.0,0.0
+336,Nordstugegränd 1, Åmotfors , Eda,710000.0,97.0,Villa ,"Nordstugegränd 1,  Åmotfors ,  Eda",59.76344465788166,12.361281964713674,0.0
+337,Odengatan 21B, Östra Centrum , Jönköping,1760000.0,55.0,Lägenhet ,"Odengatan 21B,  Östra Centrum ,  Jönköping",0.0,0.0,0.0
+338,Malmgatan 4, Haga , Sundsvall,4375000.0,182.0,Villa ,"Malmgatan 4,  Haga ,  Sundsvall",62.40643335,17.333885000000002,0.0
+339,Bergkristallsgatan 30, Tynnered , Göteborg,1310000.0,41.0,Lägenhet ,"Bergkristallsgatan 30,  Tynnered ,  Göteborg",0.0,0.0,0.0
+340,Tonvalsslingan 15, Telefonplan , Stockholm,2354000.0,27.0,Lägenhet ,"Tonvalsslingan 15,  Telefonplan ,  Stockholm",0.0,0.0,0.0
+341,Tallvägen 22, Sandared , Borås,3900000.0,117.0,Villa ,"Tallvägen 22,  Sandared ,  Borås",57.71204222289459,12.777280992951429,0.0
+342,Hellgrens väg 9, Heden , Munkfors,1600000.0,225.0,Villa ,"Hellgrens väg 9,  Heden ,  Munkfors",59.841965790171514,13.54231152213051,0.0
+343,Lackerargränd 11, Centralt , Huddinge,3250000.0,75.0,Lägenhet ,"Lackerargränd 11,  Centralt ,  Huddinge",0.0,0.0,0.0
+344,Munkebol 29, Ambjörby , Torsby,525000.0,81.0,Fritidshus ,"Munkebol 29,  Ambjörby ,  Torsby",60.4907045,13.175515,0.0
+345,Gustavsbergs Allé 22, Gustavsberg , Värmdö,1985000.0,40.0,Lägenhet ,"Gustavsbergs Allé 22,  Gustavsberg ,  Värmdö",59.321507,18.3868986,0.0
+346,Kungsgatan 52A, Centrum , Uppsala,3100000.0,88.0,Lägenhet ,"Kungsgatan 52A,  Centrum ,  Uppsala",59.856366,17.6484668,0.0
+347,Gunnarp 404, Gunnarp , Falkenberg,1500000.0,240.0,Villa ,"Gunnarp 404,  Gunnarp ,  Falkenberg",0.0,0.0,0.0
+348,Strandvägen 34A, Holm , Motala,850000.0,69.0,Lägenhet ,"Strandvägen 34A,  Holm ,  Motala",58.53262435790418,15.048452804964256,0.0
+349,Ängsgårdsvägen 5, Vallås , Halmstad,2100000.0,115.0,Villa ,"Ängsgårdsvägen 5,  Vallås ,  Halmstad",56.68205415998524,12.911970634806964,0.0
+350,Klarinettstigen 8, Asmundtorp , Landskrona,3350000.0,139.0,Villa ,"Klarinettstigen 8,  Asmundtorp ,  Landskrona",0.0,0.0,0.0
+351,Bengt Färjares väg 34, Stocksund , Danderyd,9300000.0,109.0,Lägenhet ,"Bengt Färjares väg 34,  Stocksund ,  Danderyd",59.383752983319745,18.04549317016878,0.0
+352,Grundviksvägen 6J, Linanäs , Österåker,2500000.0,114.0,Radhus ,"Grundviksvägen 6J,  Linanäs ,  Österåker",59.45802333649437,18.523569175246244,0.0
+353,Mjölnarvägen 10A, Kvarnholmen , Nacka,6500000.0,69.0,Lägenhet ,"Mjölnarvägen 10A,  Kvarnholmen ,  Nacka",59.3171234,18.1349334,0.0
+354,Grönfinksvägen 29, Vidja , Huddinge,3400000.0,51.0,Villa ,"Grönfinksvägen 29,  Vidja ,  Huddinge",59.197394399914934,18.0622280893769,0.0
+355,Splintvedsgatan 10, Hills , Mölndal,4350000.0,93.5,Lägenhet ,"Splintvedsgatan 10,  Hills ,  Mölndal",57.62558288077363,12.009901230974846,0.0
