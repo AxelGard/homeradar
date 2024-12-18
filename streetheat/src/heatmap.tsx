@@ -6,8 +6,9 @@ type HeatmapProps = {
   geojson: FeatureCollection<Point, GeoJsonProperties>;
   radius: number;
   opacity: number;
+  isPriceChecked:boolean;
 };
-const Heatmap = ({geojson, radius, opacity}: HeatmapProps) => {
+const Heatmap = ({geojson, radius, opacity, isPriceChecked}: HeatmapProps) => {
   const map = useMap();
   const visualization = useMapsLibrary('visualization');
 
@@ -26,10 +27,13 @@ const Heatmap = ({geojson, radius, opacity}: HeatmapProps) => {
     heatmap.setData(
       geojson.features.map(point => {
         const [lng, lat] = point.geometry.coordinates;
-
+        let w:number = 0;
+        if (isPriceChecked){
+          w += point.properties?.price
+        }
         return {
           location: new google.maps.LatLng(lng,lat),
-          weight: point.properties?.price
+          weight: w,
         };
       })
     );

@@ -13,6 +13,7 @@ const API_KEY =
 const App = () => {
   const [radius, setRadius] = useState(25);
   const [opacity, setOpacity] = useState(0.8);
+  const [priceChecked, setPriceChecked] = useState(true);
 
   const [earthquakesGeojson, setEarthquakesGeojson] =
     useState<EarthquakesGeojson>();
@@ -37,6 +38,7 @@ const App = () => {
           geojson={earthquakesGeojson}
           radius={radius}
           opacity={opacity}
+          isPriceChecked={priceChecked}
         />
       )}
 
@@ -45,6 +47,7 @@ const App = () => {
         opacity={opacity}
         onRadiusChanged={setRadius}
         onOpacityChanged={setOpacity}
+        onPriceCheckedChanged={setPriceChecked}
       />
     </APIProvider>
   );

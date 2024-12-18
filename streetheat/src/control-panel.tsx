@@ -1,21 +1,23 @@
 import * as React from 'react';
+import { InputGroup } from 'react-bootstrap';
 
 type Props = {
   radius: number;
   opacity: number;
   onRadiusChanged: (radius: number) => void;
   onOpacityChanged: (opacity: number) => void;
+  onPriceCheckedChanged: (ischecked:boolean) =>void;
 };
 
 function ControlPanel({
   radius,
   opacity,
   onRadiusChanged,
-  onOpacityChanged
+  onOpacityChanged,
+  onPriceCheckedChanged
 }: Props) {
   return (
     <div className="control-panel">
-      <h3>Heatmap</h3>
       <p>
         This heat map lets you find areas to look for houses or apartments which you might be interested. 
       </p>
@@ -51,6 +53,13 @@ function ControlPanel({
               min={0}
               max={1}
               step={0.1}
+            />
+          </div>
+          <div>
+            <label htmlFor="opacity">Price 💰:</label>
+            <input
+              type="checkbox"
+              onChange={e => onPriceCheckedChanged(Boolean(e.target.checked))}
             />
           </div>
         </div>
