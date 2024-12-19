@@ -14,6 +14,7 @@ const App = () => {
   const [radius, setRadius] = useState(25);
   const [opacity, setOpacity] = useState(0.8);
   const [priceChecked, setPriceChecked] = useState(true);
+  const [targetPrice, setTargetPrice] = useState(1_000_000);
 
   const [earthquakesGeojson, setEarthquakesGeojson] =
     useState<EarthquakesGeojson>();
@@ -24,7 +25,7 @@ const App = () => {
 
   return (
     <APIProvider apiKey={API_KEY}>
-      <h1>Street Heat</h1>
+      <h1>HomeRadar</h1>
       <Map
         mapId={'7a9e2ebecd32a903'}
         defaultCenter={{lat: 59.327617892022914, lng:18.067634811237237}}
@@ -39,15 +40,19 @@ const App = () => {
           radius={radius}
           opacity={opacity}
           isPriceChecked={priceChecked}
+          targetPrice={targetPrice}
         />
       )}
 
       <ControlPanel
         radius={radius}
         opacity={opacity}
+        priceChecked={priceChecked}
+        targetPrice={targetPrice}
         onRadiusChanged={setRadius}
         onOpacityChanged={setOpacity}
         onPriceCheckedChanged={setPriceChecked}
+        onTargetPriceChanged={setTargetPrice}
       />
     </APIProvider>
   );

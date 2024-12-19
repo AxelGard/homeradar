@@ -4,17 +4,23 @@ import { InputGroup } from 'react-bootstrap';
 type Props = {
   radius: number;
   opacity: number;
+  targetPrice:number;
+  priceChecked:boolean;
   onRadiusChanged: (radius: number) => void;
   onOpacityChanged: (opacity: number) => void;
-  onPriceCheckedChanged: (ischecked:boolean) =>void;
+  onPriceCheckedChanged: (priceChecked:boolean) =>void;
+  onTargetPriceChanged: (targetPrice: number) => void;
 };
 
 function ControlPanel({
   radius,
   opacity,
+  priceChecked,
+  targetPrice,
   onRadiusChanged,
   onOpacityChanged,
-  onPriceCheckedChanged
+  onPriceCheckedChanged,
+  onTargetPriceChanged
 }: Props) {
   return (
     <div className="control-panel">
@@ -56,11 +62,20 @@ function ControlPanel({
             />
           </div>
           <div>
-            <label htmlFor="opacity">Price 💰:</label>
             <input
               type="checkbox"
+              checked={priceChecked}
               onChange={e => onPriceCheckedChanged(Boolean(e.target.checked))}
             />
+            <label htmlFor="opacity">💰Price:</label>
+            <input
+              type="number"
+              value={targetPrice}
+              onChange={e => onTargetPriceChanged(Number(e.target.value))}
+              min={0}
+              max={100_000_000}
+              step={500_000}
+            /> 
           </div>
         </div>
       </div>

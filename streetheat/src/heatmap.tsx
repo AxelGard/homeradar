@@ -1,14 +1,16 @@
 import {useEffect, useMemo} from 'react';
 import {useMap, useMapsLibrary} from '@vis.gl/react-google-maps';
 import {FeatureCollection, Point, GeoJsonProperties} from 'geojson';
+import {sigmoid} from './activation';
 
 type HeatmapProps = {
   geojson: FeatureCollection<Point, GeoJsonProperties>;
   radius: number;
   opacity: number;
   isPriceChecked:boolean;
+  targetPrice:number;
 };
-const Heatmap = ({geojson, radius, opacity, isPriceChecked}: HeatmapProps) => {
+const Heatmap = ({geojson, radius, opacity, isPriceChecked, targetPrice}: HeatmapProps) => {
   const map = useMap();
   const visualization = useMapsLibrary('visualization');
 
@@ -29,15 +31,15 @@ const Heatmap = ({geojson, radius, opacity, isPriceChecked}: HeatmapProps) => {
         const [lng, lat] = point.geometry.coordinates;
         let w:number = 0;
         if (isPriceChecked){
-          w += point.properties?.price
-        }
+          w = sigmoid(Math.abs(point.properties?.price - targetPrice));
+        } 
         return {
           location: new google.maps.LatLng(lng,lat),
           weight: w,
         };
       })
     );
-  }, [heatmap, geojson, radius, opacity]);
+  }, [heatmap, geojson, radius, opacity, isPriceChecked, targetPrice]);
 
   useEffect(() => {
     if (!heatmap) return;
