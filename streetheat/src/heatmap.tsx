@@ -31,7 +31,7 @@ const Heatmap = ({geojson, radius, opacity, isPriceChecked, targetPrice}: Heatma
         const [lng, lat] = point.geometry.coordinates;
         let w:number = 0;
         if (isPriceChecked){
-          w = sigmoid(Math.abs(point.properties?.price - targetPrice));
+          w = 1 / (1 + (Math.abs(point.properties?.price - targetPrice)/(targetPrice* 0.1))^0.5)
         } 
         return {
           location: new google.maps.LatLng(lng,lat),
