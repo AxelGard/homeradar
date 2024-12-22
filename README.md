@@ -1,4 +1,4 @@
-# Heatmap
+# HomeRadar
 
 This uses the `useMapsLibrary` hook showing earthquake magnitude data in a
 heatmap.
@@ -16,6 +16,11 @@ GOOGLE_MAPS_API_KEY="<YOUR API KEY HERE>"
 ```
 
 If you are on the CodeSandbox playground you can also choose to [provide the API key like this](https://codesandbox.io/docs/learn/environment/secrets)
+
+
+## Deployment 
+
+https://d9268aa7.homeradar.pages.dev/ 
 
 ## Development
 
