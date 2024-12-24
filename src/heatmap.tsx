@@ -29,10 +29,10 @@ const Heatmap = ({geojson, radius, opacity, isPriceChecked, targetPrice}: Heatma
     heatmap.setData(
       geojson.features.map(point => {
         const [lng, lat] = point.geometry.coordinates;
-        let w:number = 0;
+        let w:number = 1;
         if (isPriceChecked){
-          //w = 1 / (1 + (Math.abs(point.properties?.price - targetPrice)/(targetPrice* 0.1))^0.5)
-          w = 1 / ( 1 + Math.abs(point.properties?.price - targetPrice) )
+          w *= 1 / (1 + (Math.abs(point.properties?.price - targetPrice)/(targetPrice* 0.1))^0.5)
+          //w = 1 / ( 1 + Math.abs(point.properties?.price - targetPrice) )
         } 
         return {
           location: new google.maps.LatLng(lng,lat),
