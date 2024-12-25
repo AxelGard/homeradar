@@ -7,8 +7,8 @@ import ControlPanel from './control-panel';
 import Heatmap from './heatmap';
 import {EarthquakesGeojson, loadEarthquakeGeojson} from './earthquakes';
 
-const API_KEY =
-  globalThis.GOOGLE_MAPS_API_KEY ?? (process.env.GOOGLE_MAPS_API_KEY as string);
+const API_KEY = "AIzaSyBG-HqihWbHqCwxiyVN1Vc6Z-JBxGctOCE";
+  //globalThis.GOOGLE_MAPS_API_KEY ?? (process.env.GOOGLE_MAPS_API_KEY as string);
 
 const App = () => {
   const [radius, setRadius] = useState(25);
