@@ -2,13 +2,11 @@ import * as React from 'react';
 import { InputGroup } from 'react-bootstrap';
 import { HomeType } from "./filters/hometype";
 import { HomeSize  } from "./filters/size";
-import { TargetPrice } from "./filters/targetPrice";
+import {  TargetPrice } from "./filters/targetprice";
 
 type Props = {
   radius: number;
   opacity: number;
-  targetPrice:number;
-  priceChecked:boolean;
   onRadiusChanged: (radius: number) => void;
   onOpacityChanged: (opacity: number) => void;
 };

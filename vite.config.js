@@ -10,8 +10,14 @@ export default defineConfig(({mode}) => {
     resolve: {
       alias: {
         '@vis.gl/react-google-maps/examples.js':
-          'https://visgl.github.io/react-google-maps/scripts/examples.js'
+          'https://visgl.github.io/react-google-maps/scripts/examples.js',
+          'react-bootstrap': 'react-bootstrap/cjs',
       }
-    }
+    },
+    esbuild: {
+      logOverride: {
+        'use client': 'silent',
+      },
+    },
   };
 });

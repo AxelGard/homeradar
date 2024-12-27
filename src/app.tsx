@@ -39,20 +39,14 @@ const App = () => {
           geojson={earthquakesGeojson}
           radius={radius}
           opacity={opacity}
-          isPriceChecked={priceChecked}
-          targetPrice={targetPrice}
         />
       )}
 
       <ControlPanel
         radius={radius}
         opacity={opacity}
-        priceChecked={priceChecked}
-        targetPrice={targetPrice}
         onRadiusChanged={setRadius}
         onOpacityChanged={setOpacity}
-        onPriceCheckedChanged={setPriceChecked}
-        onTargetPriceChanged={setTargetPrice}
       />
     </APIProvider>
   );
