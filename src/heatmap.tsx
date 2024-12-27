@@ -2,15 +2,16 @@ import {useEffect, useMemo} from 'react';
 import {useMap, useMapsLibrary} from '@vis.gl/react-google-maps';
 import {FeatureCollection, Point, GeoJsonProperties} from 'geojson';
 import {sigmoid} from './activation';
+import { useSearchParams} from 'react-router';
+
 
 type HeatmapProps = {
   geojson: FeatureCollection<Point, GeoJsonProperties>;
   radius: number;
   opacity: number;
-  isPriceChecked:boolean;
-  targetPrice:number;
 };
-const Heatmap = ({geojson, radius, opacity, isPriceChecked, targetPrice}: HeatmapProps) => {
+
+const Heatmap = ({geojson, radius, opacity}: HeatmapProps) => {
   const map = useMap();
   const visualization = useMapsLibrary('visualization');
 
@@ -23,16 +24,25 @@ const Heatmap = ({geojson, radius, opacity, isPriceChecked, targetPrice}: Heatma
     });
   }, [visualization, radius, opacity]);
 
+  const [searchParams, setSearchParams] = useSearchParams();
+  const isTargetPriceChecked = Boolean(searchParams.get('IsTargetPriceChecked'))?? true;
+  const targetPrice = Number(searchParams.get('TargetPrice'))?? 1000000;
+  const isHomeSizeChecked = Boolean(searchParams.get('IsHomeSizeChecked'))?? true;
+  const homeSize = searchParams.get('HomeSize')?? 0;
+
   useEffect(() => {
     if (!heatmap) return;
 
     heatmap.setData(
       geojson.features.map(point => {
         const [lng, lat] = point.geometry.coordinates;
-        let w:number = 1;
-        if (isPriceChecked){
-          w *= 1 / (1 + (Math.abs(point.properties?.price - targetPrice)/(targetPrice* 0.1))^0.5)
-          //w = 1 / ( 1 + Math.abs(point.properties?.price - targetPrice) )
+        let w:number = 0.0001;
+        if (isHomeSizeChecked && Math.abs(+homeSize - point.properties?.size) > 50)
+        {
+          w += 1 
+        }
+        if (isTargetPriceChecked){
+          w += 1 / (1 + (Math.abs(point.properties?.price - targetPrice)/(targetPrice* 0.1))^0.5);
         } 
         return {
           location: new google.maps.LatLng(lng,lat),
@@ -40,7 +50,7 @@ const Heatmap = ({geojson, radius, opacity, isPriceChecked, targetPrice}: Heatma
         };
       })
     );
-  }, [heatmap, geojson, radius, opacity, isPriceChecked, targetPrice]);
+  }, [heatmap, geojson, radius, opacity, isTargetPriceChecked, targetPrice, homeSize, isHomeSizeChecked]);
 
   useEffect(() => {
     if (!heatmap) return;

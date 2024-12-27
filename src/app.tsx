@@ -2,12 +2,14 @@ import React, {useEffect, useState} from 'react';
 import {createRoot} from 'react-dom/client';
 
 import {APIProvider, Map} from '@vis.gl/react-google-maps';
-
+import { BrowserRouter } from "react-router";
 import ControlPanel from './control-panel';
 import Heatmap from './heatmap';
 import {EarthquakesGeojson, loadEarthquakeGeojson} from './earthquakes';
+import {NavigationBar} from './navbar'
 
-const API_KEY = "AIzaSyBg3ZPbbgy-ef8rzhV7VX8XvOln2wlkLyQ";
+//const API_KEY = "AIzaSyBg3ZPbbgy-ef8rzhV7VX8XvOln2wlkLyQ";
+const API_KEY = "AIzaSyAgv1kXjInpRxF3jVPQGCSi5pLwqRQnc7c";
   //globalThis.GOOGLE_MAPS_API_KEY ?? (process.env.GOOGLE_MAPS_API_KEY as string);
 
 const App = () => {
@@ -25,7 +27,7 @@ const App = () => {
 
   return (
     <APIProvider apiKey={API_KEY}>
-      <h1>HomeRadar</h1>
+      <NavigationBar></NavigationBar>
       <Map
         mapId={'7a9e2ebecd32a903'}
         defaultCenter={{lat: 59.327617892022914, lng:18.067634811237237}}
@@ -64,7 +66,9 @@ export function renderToDom(container: HTMLElement) {
 
   root.render(
     <React.StrictMode>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </React.StrictMode>
   );
 }

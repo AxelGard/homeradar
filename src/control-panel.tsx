@@ -1,5 +1,8 @@
 import * as React from 'react';
 import { InputGroup } from 'react-bootstrap';
+import { HomeType } from "./filters/hometype";
+import { HomeSize  } from "./filters/size";
+import { TargetPrice } from "./filters/targetPrice";
 
 type Props = {
   radius: number;
@@ -8,19 +11,13 @@ type Props = {
   priceChecked:boolean;
   onRadiusChanged: (radius: number) => void;
   onOpacityChanged: (opacity: number) => void;
-  onPriceCheckedChanged: (priceChecked:boolean) =>void;
-  onTargetPriceChanged: (targetPrice: number) => void;
 };
 
 function ControlPanel({
   radius,
   opacity,
-  priceChecked,
-  targetPrice,
   onRadiusChanged,
   onOpacityChanged,
-  onPriceCheckedChanged,
-  onTargetPriceChanged
 }: Props) {
   return (
     <div className="control-panel">
@@ -30,7 +27,7 @@ function ControlPanel({
 
       {/* Circle Controls */}
       <div style={{marginBottom: '2rem'}}>
-        <h4>Change the parameters here:</h4>
+        <b>Change the parameters here:</b>
         <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
           <div
             style={{
@@ -61,22 +58,11 @@ function ControlPanel({
               step={0.1}
             />
           </div>
-          <div>
-            <input
-              type="checkbox"
-              checked={priceChecked}
-              onChange={e => onPriceCheckedChanged(Boolean(e.target.checked))}
-            />
-            <label htmlFor="opacity">💰Price:</label>
-            <input
-              type="number"
-              value={targetPrice}
-              onChange={e => onTargetPriceChanged(Number(e.target.value))}
-              min={0}
-              max={100_000_000}
-              step={500_000}
-            /> 
-          </div>
+
+            <TargetPrice></TargetPrice>            
+            <HomeSize></HomeSize>
+            <HomeType></HomeType>
+
         </div>
       </div>
 
