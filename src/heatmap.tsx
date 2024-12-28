@@ -25,10 +25,10 @@ const Heatmap = ({geojson, radius, opacity}: HeatmapProps) => {
   }, [visualization, radius, opacity]);
 
   const [searchParams, setSearchParams] = useSearchParams();
-  const isTargetPriceChecked = Boolean(searchParams.get('IsTargetPriceChecked'))?? true;
-  const targetPrice = Number(searchParams.get('TargetPrice'))?? 1000000;
-  const isHomeSizeChecked = Boolean(searchParams.get('IsHomeSizeChecked'))?? true;
-  const homeSize = searchParams.get('HomeSize')?? 0;
+  const isTargetPriceChecked = searchParams.get('IsTargetPriceChecked') === "true";
+  const targetPrice = searchParams.get('TargetPrice')?? "1000000";
+  const isHomeSizeChecked = searchParams.get('IsHomeSizeChecked') === "true";
+  const homeSize = searchParams.get('HomeSize')?? "0";
 
   useEffect(() => {
     if (!heatmap) return;
@@ -37,13 +37,17 @@ const Heatmap = ({geojson, radius, opacity}: HeatmapProps) => {
       geojson.features.map(point => {
         const [lng, lat] = point.geometry.coordinates;
         let w:number = 0.0001;
-        if (isHomeSizeChecked && Math.abs(+homeSize - point.properties?.size) > 50)
+
+        if (Boolean(isHomeSizeChecked))
         {
-          w += 1 
+          w += 1 / ( 1 +  Math.abs(+homeSize - point.properties?.size))
         }
-        if (isTargetPriceChecked){
-          w += 1 / (1 + (Math.abs(point.properties?.price - targetPrice)/(targetPrice* 0.1))^0.5);
+        if (Boolean(isTargetPriceChecked)){
+          w += 1 / (1 + (Math.abs(point.properties?.price - +targetPrice)/(+targetPrice* 0.1))^0.5);
         } 
+
+
+
         return {
           location: new google.maps.LatLng(lng,lat),
           weight: w,

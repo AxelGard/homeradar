@@ -1,30 +1,42 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, useSearchParams } from "react-router";
+import { useSearchParams } from "react-router";
+import { Form } from "react-bootstrap";
 
 export function HomeSize(){
     const [searchParams, setSearchParams] = useSearchParams();
-    const navigate = useNavigate();
     
-    const size = Number(searchParams.get('HomeSize')) || 50;
+    const size = Number(searchParams.get('HomeSize')) || "50";
+    const isChecked = searchParams.has('IsHomeSizeChecked') 
+        ? searchParams.get('IsHomeSizeChecked') === 'true' 
+        : true; 
+
     const [localSize, setLocalValue] = useState(size);
-    
-    const isChecked = Boolean(searchParams.get('IsHomeSizeChecked')) || true;
     const [localIsChecked, setLocalIsChecked] = useState(isChecked);
 
     useEffect(() => {
-        const newValue = Number(searchParams.get('HomeSize')) || 50;
+        let updated = false;
+
+        const newValue = Number(searchParams.get('HomeSize')) || "50";
         setLocalValue(newValue);
-        const newIsHomeSizeChecked = Boolean(searchParams.get('IsHomeSizeChecked')) || true;
+        if(searchParams.has('IsHomeSizeChecked')){
+            searchParams.set('HomeSize', String(newValue))
+            updated=true;
+        }
+
+        const newIsHomeSizeChecked = searchParams.get('IsHomeSizeChecked') === 'true';
         setLocalIsChecked(newIsHomeSizeChecked);
+        if (updated) {
+            setSearchParams(searchParams);
+        }
     }, [searchParams]);
 
     const updateHomeSize = (newValue) => {
-        searchParams.set('HomeSize', newValue);
+        searchParams.set('HomeSize', String(newValue));
         setSearchParams(searchParams);
         setLocalValue(newValue);
     };
     const updateIsSizeChecked = (newValue) => {
-        searchParams.set('IsHomeSizeChecked', newValue);
+        searchParams.set('IsHomeSizeChecked', String(newValue));
         setSearchParams(searchParams);
         setLocalIsChecked(newValue);
     };
@@ -33,13 +45,14 @@ export function HomeSize(){
         display: 'flex',
         justifyContent: 'space-between'
       }}>
-        <div>
-        <input
-            type="checkbox"
-            checked={localIsChecked}
-            onChange={e => updateIsSizeChecked(String(e.target.checked))} />
-        <label htmlFor="size">📏Size(m^2):</label>
-        </div>
+        <Form>
+            <Form.Check 
+                type="switch"
+                label="📏 Size [m^2]:"
+                onChange={e => updateIsSizeChecked(!localIsChecked)}
+                checked={localIsChecked}
+            />
+        </Form>
             <input
               type="number"
               value={localSize}

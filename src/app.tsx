@@ -13,8 +13,6 @@ const API_KEY = "AIzaSyBg3ZPbbgy-ef8rzhV7VX8XvOln2wlkLyQ";
 const App = () => {
   const [radius, setRadius] = useState(25);
   const [opacity, setOpacity] = useState(0.8);
-  const [priceChecked, setPriceChecked] = useState(true);
-  const [targetPrice, setTargetPrice] = useState(1_000_000);
 
   const [earthquakesGeojson, setEarthquakesGeojson] =
     useState<EarthquakesGeojson>();
