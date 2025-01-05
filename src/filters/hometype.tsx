@@ -4,7 +4,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 
 enum HomeTypes {
   Apartment = "Apartment",
-  House = "House ",
+  House = "House",
   TerracedHouse = "TerracedHouse",
   ChainHouse = "ChainHouse",
   Farm = "Farm",

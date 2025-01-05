@@ -51,7 +51,6 @@ const Heatmap = ({geojson, radius, opacity}: HeatmapProps) => {
       geojson.features.map(point => {
         const [lng, lat] = point.geometry.coordinates;
         let w:number = 0.0001;
-        // check that the point is of the selected home type
         console.log(homeTypes);
         if (homeTypes.includes(point.properties?.type)){
           if (Boolean(isHomeSizeChecked))
