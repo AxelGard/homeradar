@@ -1,0 +1,5 @@
+pandas
+tqdm
+geopy
+beautifulsoup4
+requests

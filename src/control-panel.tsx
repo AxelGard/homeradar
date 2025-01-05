@@ -23,7 +23,6 @@ function ControlPanel({
         This heat map lets you find areas to look for houses or apartments which you might be interested. 
       </p>
 
-      {/* Circle Controls */}
       <div style={{marginBottom: '2rem'}}>
         <b>Change the parameters here:</b>
         <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
