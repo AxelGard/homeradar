@@ -1,8 +1,6 @@
 import json
 import pprint
-from typing import List
 import typing
-import sys
 from time import sleep
 from bs4 import BeautifulSoup
 import random
@@ -18,7 +16,6 @@ def download_page(url):
 
 def cluster_data(cards):
     cards_data = []
-    i = -1
     card = []
     for c in cards:
         if '<div class="object-card__header">' in str(c):
@@ -51,6 +48,11 @@ def set_data(cards, data):
             err_cnt += 1 
     return data
 
+def in_sweden(latitude, longitude):
+    min_latitude, max_latitude = 55.0, 69.0
+    min_longitude, max_longitude = 11.0, 24.0
+    return min_latitude <= latitude <= max_latitude and min_longitude <= longitude <= max_longitude 
+
 def get_lat_lng(data:pd.DataFrame):
     data["lat"] = 0.0
     data["lng"] = 0.0
@@ -59,11 +61,11 @@ def get_lat_lng(data:pd.DataFrame):
     for idx, row in data.iterrows():
         #geolocator = Nominatim(user_agent="Geopy Library") 
         geolocator = GoogleV3(api_key="AIzaSyAaIHU2ZTditFtPL-K05lt4XDtiWMrtaKk")
-        addrs = row["Full Address"].replace(" , ", ", ")
+        addrs = row["Full Address"].replace(" , ", ", ") + ", Sweden"
         location = geolocator.geocode(quote(addrs), exactly_one=False)
         if isinstance(location, list): 
             location = location[0]
-        if location:
+        if location and in_sweden(location.latitude, location.longitude):
             data.loc[idx, "lat"] = location.latitude
             data.loc[idx, "lng"] = location.longitude
             data.loc[idx, "alt"] = location.altitude or 0.0
@@ -125,7 +127,7 @@ def main():
         "type": [],
     }
 
-    for i in tqdm(range(300)):
+    for i in tqdm(range(10)):
         html = download_page(url + str(i)) 
         soup = BeautifulSoup(html, 'html.parser')
         cards = soup.select('[class^=object-card__]')
