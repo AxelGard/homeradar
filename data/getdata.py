@@ -54,17 +54,20 @@ def in_sweden(latitude, longitude):
     return min_latitude <= latitude <= max_latitude and min_longitude <= longitude <= max_longitude 
 
 def get_lat_lng(data:pd.DataFrame):
+
     data["lat"] = 0.0
     data["lng"] = 0.0
     data["alt"] = 0.0
-    data['Full Address'] = data[['street_name', 'area', 'city']].apply(lambda x: ', '.join(x), axis=1)
+    data["Full Address"] = ""
+    #data['Full Address'] = data[['street_name', 'area', 'city']].apply(lambda x: ', '.join(x), axis=1)
+    data['Full Address'] = data['street_name'] + ", " + data['area'] + ", " + data["city"] + ", Sweden"
+    API_KEY = "AIzaSyAaIHU2ZTditFtPL-K05lt4XDtiWMrtaKk" 
     for idx, row in data.iterrows():
-        #geolocator = Nominatim(user_agent="Geopy Library") 
-        geolocator = GoogleV3(api_key="AIzaSyAaIHU2ZTditFtPL-K05lt4XDtiWMrtaKk")
-        addrs = row["Full Address"].replace(" , ", ", ") + ", Sweden"
-        location = geolocator.geocode(quote(addrs), exactly_one=False)
-        if isinstance(location, list): 
-            location = location[0]
+        address = row["Full Address"]
+        url = f"https://maps.googleapis.com/maps/api/geocode/json?address={address}&key={API_KEY}"
+        response = requests.get(url)
+        data = response.json()
+        location = data["results"][0]["geometry"]["location"]
         if location and in_sweden(location.latitude, location.longitude):
             data.loc[idx, "lat"] = location.latitude
             data.loc[idx, "lng"] = location.longitude
@@ -116,6 +119,18 @@ def translate_home_type(data:pd.DataFrame) -> pd.DataFrame:
     data["type"] = data["type"].apply(lambda x: swe_2_eng.get(x, x))
     return data 
 
+
+def find_the_key(data:dict, key:str):
+    if not isinstance(data, dict):
+        return None
+    if key in data.keys():
+        return key 
+    for k, v in data.items():
+        r = find_the_key(v, key)
+        if r:
+            return f"[{k}][{r}]" 
+    return None
+
 def main():
     url = "https://www.booli.se/sok/slutpriser?page="
     data = {
@@ -127,21 +142,34 @@ def main():
         "type": [],
     }
 
-    for i in tqdm(range(10)):
-        html = download_page(url + str(i)) 
-        soup = BeautifulSoup(html, 'html.parser')
-        cards = soup.select('[class^=object-card__]')
-        cards = cluster_data(cards)
-        data = set_data(cards, data)
-        df = pd.DataFrame(data)
-        df = translate_home_type(df)
-        df = get_lat_lng(df)
-        #print(df)
-        df = df.loc[df["lat"] != 0]
-        df.reset_index(inplace=True)
-        df.to_csv("./booli.csv", index=False)
-        to_heat_map_format(df, "./booli.json")
-        sleep(2)
+    #for i in tqdm(range(10)):
+    #html = download_page(url + str(i)) 
+    html = ""
+    with open("booli.html", "r") as f:
+        html = f.read()
+    soup = BeautifulSoup(html, 'html.parser')
+    script_tags = soup.find_all('script', type='application/json')
+    data = {}
+    for script_tag in script_tags:
+        try:
+            data[len(data)] = json.loads(script_tag.string)
+        except (json.JSONDecodeError, AttributeError):
+            continue
+    data = dict(data[0])
+    data = data["props"]["pageProps"]["__APOLLO_STATE__"]
+    print(data)
+        #soup = BeautifulSoup(html, 'html.parser')
+        #cards = soup.select('[class^=object-card__]')
+        #cards = cluster_data(cards)
+        #data = set_data(cards, data)
+        #df = pd.DataFrame(data)
+        #df = translate_home_type(df)
+        #df = get_lat_lng(df)
+        #df = df.loc[df["lat"] != 0]
+        #df.reset_index(inplace=True)
+        #df.to_csv("./booli.csv", index=False)
+        #to_heat_map_format(df, "./booli.json")
+        #sleep(2)
         #sleep(30 + random.randrange(3, 10)) 
 
 

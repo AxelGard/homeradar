@@ -12,14 +12,14 @@
             "properties": {
                 "id": 0,
                 "type": "Apartment",
-                "price": 4000000.0,
-                "size": 82.0
+                "price": 4275000.0,
+                "size": 71.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    55.5990462,
-                    12.9783745,
+                    59.30846932,
+                    18.01402735,
                     0.0
                 ]
             }
@@ -29,14 +29,14 @@
             "properties": {
                 "id": 1,
                 "type": "Apartment",
-                "price": 3350000.0,
-                "size": 23.5
+                "price": 4360000.0,
+                "size": 35.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3374657,
-                    18.085653,
+                    59.34507521,
+                    18.03836255,
                     0.0
                 ]
             }
@@ -46,14 +46,14 @@
             "properties": {
                 "id": 2,
                 "type": "Apartment",
-                "price": 4100000.0,
-                "size": 37.0
+                "price": 1450000.0,
+                "size": 58.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3155147,
-                    18.030363,
+                    59.3619575,
+                    16.51263925,
                     0.0
                 ]
             }
@@ -63,14 +63,14 @@
             "properties": {
                 "id": 3,
                 "type": "Apartment",
-                "price": 2220000.0,
-                "size": 68.0
+                "price": 2000000.0,
+                "size": 59.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    57.656358,
-                    11.9157238,
+                    59.862316,
+                    17.605513,
                     0.0
                 ]
             }
@@ -79,15 +79,15 @@
             "type": "Feature",
             "properties": {
                 "id": 4,
-                "type": "House",
-                "price": 4300000.0,
-                "size": 139.0
+                "type": "Apartment",
+                "price": 7625000.0,
+                "size": 66.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    56.9123824,
-                    14.8589075,
+                    59.31504496,
+                    18.03286782,
                     0.0
                 ]
             }
@@ -97,14 +97,14 @@
             "properties": {
                 "id": 5,
                 "type": "Apartment",
-                "price": 4000000.0,
-                "size": 62.0
+                "price": 2650000.0,
+                "size": 63.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    57.7032968,
-                    11.9578799,
+                    59.51358618,
+                    18.06939456,
                     0.0
                 ]
             }
@@ -114,14 +114,14 @@
             "properties": {
                 "id": 6,
                 "type": "Apartment",
-                "price": 4200000.0,
-                "size": 40.0
+                "price": 6400000.0,
+                "size": 95.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3176105,
-                    18.0309933,
+                    59.36400258,
+                    17.95331014,
                     0.0
                 ]
             }
@@ -131,14 +131,14 @@
             "properties": {
                 "id": 7,
                 "type": "Apartment",
-                "price": 3670000.0,
-                "size": 30.0
+                "price": 3550000.0,
+                "size": 51.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3144479,
-                    18.0810491,
+                    59.29807189,
+                    18.00466667,
                     0.0
                 ]
             }
@@ -148,14 +148,14 @@
             "properties": {
                 "id": 8,
                 "type": "Apartment",
-                "price": 10400000.0,
-                "size": 88.0
+                "price": 3000000.0,
+                "size": 21.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    56.0718178,
-                    12.7102363,
+                    59.34743545,
+                    18.06263104,
                     0.0
                 ]
             }
@@ -165,14 +165,14 @@
             "properties": {
                 "id": 9,
                 "type": "Apartment",
-                "price": 4725000.0,
-                "size": 45.0
+                "price": 4100000.0,
+                "size": 38.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3311812,
-                    18.0407362,
+                    59.33690068,
+                    18.02613146,
                     0.0
                 ]
             }
@@ -181,15 +181,15 @@
             "type": "Feature",
             "properties": {
                 "id": 10,
-                "type": "TerracedHouse",
-                "price": 1450000.0,
-                "size": 63.0
+                "type": "Apartment",
+                "price": 2720000.0,
+                "size": 59.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    56.0100742,
-                    12.7628975,
+                    59.3549297,
+                    17.9057211,
                     0.0
                 ]
             }
@@ -199,14 +199,14 @@
             "properties": {
                 "id": 11,
                 "type": "Apartment",
-                "price": 4000000.0,
-                "size": 82.0
+                "price": 2275000.0,
+                "size": 63.5
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    55.5990462,
-                    12.9783745,
+                    59.22894972,
+                    18.23069602,
                     0.0
                 ]
             }
@@ -216,14 +216,14 @@
             "properties": {
                 "id": 12,
                 "type": "Apartment",
-                "price": 3350000.0,
-                "size": 23.5
+                "price": 1775000.0,
+                "size": 73.5
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3374657,
-                    18.085653,
+                    60.66668,
+                    17.14708,
                     0.0
                 ]
             }
@@ -233,14 +233,14 @@
             "properties": {
                 "id": 13,
                 "type": "Apartment",
-                "price": 4100000.0,
-                "size": 37.0
+                "price": 4500000.0,
+                "size": 40.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3155147,
-                    18.030363,
+                    59.34458927,
+                    18.09705757,
                     0.0
                 ]
             }
@@ -250,14 +250,14 @@
             "properties": {
                 "id": 14,
                 "type": "Apartment",
-                "price": 2220000.0,
-                "size": 68.0
+                "price": 2750000.0,
+                "size": 78.5
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    57.656358,
-                    11.9157238,
+                    59.3680476,
+                    17.8684347,
                     0.0
                 ]
             }
@@ -266,15 +266,15 @@
             "type": "Feature",
             "properties": {
                 "id": 15,
-                "type": "House",
-                "price": 4300000.0,
-                "size": 139.0
+                "type": "Apartment",
+                "price": 3650000.0,
+                "size": 61.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    56.9123824,
-                    14.8589075,
+                    57.6687,
+                    12.0076,
                     0.0
                 ]
             }
@@ -283,15 +283,15 @@
             "type": "Feature",
             "properties": {
                 "id": 16,
-                "type": "Apartment",
-                "price": 4000000.0,
-                "size": 62.0
+                "type": "House",
+                "price": 8450000.0,
+                "size": 172.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    57.7032968,
-                    11.9578799,
+                    57.71185844,
+                    11.76274854,
                     0.0
                 ]
             }
@@ -300,15 +300,15 @@
             "type": "Feature",
             "properties": {
                 "id": 17,
-                "type": "Apartment",
-                "price": 4200000.0,
-                "size": 40.0
+                "type": "House",
+                "price": 1150000.0,
+                "size": 58.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3176105,
-                    18.0309933,
+                    56.03893575,
+                    13.29583805,
                     0.0
                 ]
             }
@@ -318,14 +318,14 @@
             "properties": {
                 "id": 18,
                 "type": "Apartment",
-                "price": 3670000.0,
-                "size": 30.0
+                "price": 2895000.0,
+                "size": 65.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3144479,
-                    18.0810491,
+                    55.60135,
+                    12.981886,
                     0.0
                 ]
             }
@@ -335,14 +335,14 @@
             "properties": {
                 "id": 19,
                 "type": "Apartment",
-                "price": 10400000.0,
-                "size": 88.0
+                "price": 9200000.0,
+                "size": 116.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    56.0718178,
-                    12.7102363,
+                    59.3109823,
+                    18.02308797,
                     0.0
                 ]
             }
@@ -352,14 +352,14 @@
             "properties": {
                 "id": 20,
                 "type": "Apartment",
-                "price": 4725000.0,
-                "size": 45.0
+                "price": 2500000.0,
+                "size": 73.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3311812,
-                    18.0407362,
+                    59.26087867,
+                    18.01940445,
                     0.0
                 ]
             }
@@ -368,15 +368,15 @@
             "type": "Feature",
             "properties": {
                 "id": 21,
-                "type": "TerracedHouse",
-                "price": 1450000.0,
-                "size": 63.0
+                "type": "Apartment",
+                "price": 19350000.0,
+                "size": 119.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    56.0100742,
-                    12.7628975,
+                    59.3329112,
+                    18.089431,
                     0.0
                 ]
             }
@@ -386,14 +386,14 @@
             "properties": {
                 "id": 22,
                 "type": "Apartment",
-                "price": 3800000.0,
-                "size": 30.5
+                "price": 5100000.0,
+                "size": 53.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3100628,
-                    18.071565,
+                    59.3177406,
+                    18.05241415,
                     0.0
                 ]
             }
@@ -403,14 +403,14 @@
             "properties": {
                 "id": 23,
                 "type": "Apartment",
-                "price": 100000.0,
-                "size": 65.0
+                "price": 5460000.0,
+                "size": 75.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    58.4022189,
-                    15.6378197,
+                    59.33009999,
+                    17.94823286,
                     0.0
                 ]
             }
@@ -419,15 +419,15 @@
             "type": "Feature",
             "properties": {
                 "id": 24,
-                "type": "SemiDetachedHouse",
-                "price": 7300000.0,
-                "size": 165.0
+                "type": "Apartment",
+                "price": 16600000.0,
+                "size": 128.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    57.65103149999999,
-                    11.96584,
+                    59.32736409,
+                    18.04549638,
                     0.0
                 ]
             }
@@ -436,15 +436,15 @@
             "type": "Feature",
             "properties": {
                 "id": 25,
-                "type": "House",
-                "price": 4900000.0,
-                "size": 156.0
+                "type": "Apartment",
+                "price": 3415000.0,
+                "size": 48.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3856574,
-                    16.5100687,
+                    59.30442665,
+                    17.98621933,
                     0.0
                 ]
             }
@@ -454,14 +454,14 @@
             "properties": {
                 "id": 26,
                 "type": "Apartment",
-                "price": 2995000.0,
-                "size": 81.5
+                "price": 14775000.0,
+                "size": 109.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    60.12816100000001,
-                    18.643501,
+                    59.34159051,
+                    18.02975419,
                     0.0
                 ]
             }
@@ -471,14 +471,14 @@
             "properties": {
                 "id": 27,
                 "type": "Apartment",
-                "price": 1995000.0,
-                "size": 79.0
+                "price": 13000000.0,
+                "size": 135.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.331805,
-                    18.0881769,
+                    59.34575423,
+                    18.05343167,
                     0.0
                 ]
             }
@@ -488,14 +488,14 @@
             "properties": {
                 "id": 28,
                 "type": "Apartment",
-                "price": 5100000.0,
-                "size": 62.5
+                "price": 4160000.0,
+                "size": 81.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3332648,
-                    18.015007,
+                    59.35256247,
+                    17.97974824,
                     0.0
                 ]
             }
@@ -504,15 +504,15 @@
             "type": "Feature",
             "properties": {
                 "id": 29,
-                "type": "House",
-                "price": 975000.0,
-                "size": 117.0
+                "type": "Apartment",
+                "price": 8495000.0,
+                "size": 97.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    62.0480908,
-                    17.2604849,
+                    59.31286183,
+                    18.09920368,
                     0.0
                 ]
             }
@@ -521,15 +521,15 @@
             "type": "Feature",
             "properties": {
                 "id": 30,
-                "type": "House",
-                "price": 1100000.0,
-                "size": 130.0
+                "type": "Apartment",
+                "price": 3610000.0,
+                "size": 83.8
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    60.6388802,
-                    17.394266,
+                    59.30340051,
+                    18.0013084,
                     0.0
                 ]
             }
@@ -539,14 +539,14 @@
             "properties": {
                 "id": 31,
                 "type": "Apartment",
-                "price": 3295000.0,
-                "size": 39.0
+                "price": 720000.0,
+                "size": 43.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3325809,
-                    18.0163326,
+                    57.505653,
+                    14.141899,
                     0.0
                 ]
             }
@@ -556,14 +556,14 @@
             "properties": {
                 "id": 32,
                 "type": "Apartment",
-                "price": 170000.0,
-                "size": 71.0
+                "price": 2870000.0,
+                "size": 55.5
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    58.4022189,
-                    15.6378197,
+                    59.4118338,
+                    17.8003702,
                     0.0
                 ]
             }
@@ -572,15 +572,15 @@
             "type": "Feature",
             "properties": {
                 "id": 33,
-                "type": "House",
-                "price": 2500000.0,
-                "size": 116.0
+                "type": "Apartment",
+                "price": 1200000.0,
+                "size": 67.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    57.2038363,
-                    14.9358645,
+                    59.41626,
+                    16.48934,
                     0.0
                 ]
             }
@@ -589,1596 +589,15 @@
             "type": "Feature",
             "properties": {
                 "id": 34,
-                "type": "House",
-                "price": 625000.0,
-                "size": 88.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.12816100000001,
-                    18.643501,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 35,
-                "type": "Apartment",
-                "price": 2795000.0,
-                "size": 34.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3290845,
-                    18.0048243,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 36,
-                "type": "Apartment",
-                "price": 1875000.0,
-                "size": 67.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.48052130000001,
-                    16.0400533,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 37,
-                "type": "Apartment",
-                "price": 980000.0,
-                "size": 68.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.6203223,
-                    17.8280409,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 38,
-                "type": "Apartment",
-                "price": 170000.0,
-                "size": 63.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.4022189,
-                    15.6378197,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 39,
-                "type": "Apartment",
-                "price": 2800000.0,
-                "size": 42.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3075964,
-                    18.1240721,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 40,
-                "type": "House",
-                "price": 4300000.0,
-                "size": 136.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.4057079,
-                    13.0786577,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 41,
-                "type": "Apartment",
-                "price": 2015000.0,
-                "size": 61.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    63.8247665,
-                    20.2693161,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 42,
-                "type": "TerracedHouse",
-                "price": 5400000.0,
-                "size": 109.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.33623219999999,
-                    18.0904431,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 43,
-                "type": "Apartment",
-                "price": 3420000.0,
-                "size": 53.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3032129,
-                    18.1150691,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 44,
-                "type": "Apartment",
-                "price": 2525000.0,
-                "size": 66.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.657061,
-                    11.9219421,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 45,
-                "type": "Apartment",
-                "price": 5450000.0,
-                "size": 49.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3413505,
-                    18.0655154,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 46,
-                "type": "Apartment",
-                "price": 1375000.0,
-                "size": 80.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    56.170303,
-                    14.863073,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 47,
-                "type": "Apartment",
-                "price": 1345000.0,
-                "size": 63.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.6945438,
-                    11.9361732,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 48,
-                "type": "Apartment",
-                "price": 9750000.0,
-                "size": 94.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3327036,
-                    18.0656255,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 49,
-                "type": "Apartment",
-                "price": 4500000.0,
-                "size": 61.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.12816100000001,
-                    18.643501,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 50,
-                "type": "House",
-                "price": 1200000.0,
-                "size": 72.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.1877421,
-                    13.958024,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 51,
-                "type": "Apartment",
-                "price": 2770000.0,
-                "size": 81.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.7602208,
-                    11.9682106,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 52,
-                "type": "Apartment",
-                "price": 6995000.0,
-                "size": 92.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.2983844,
-                    18.074503,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 53,
-                "type": "Apartment",
-                "price": 1610000.0,
-                "size": 27.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.8440829,
-                    17.6161064,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 54,
-                "type": "Apartment",
-                "price": 2400000.0,
-                "size": 46.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.8483608,
-                    17.653576,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 55,
-                "type": "Apartment",
-                "price": 9325000.0,
-                "size": 70.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3394903,
-                    18.0392934,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 56,
-                "type": "Apartment",
-                "price": 3250000.0,
-                "size": 60.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.7120187,
-                    11.9884212,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 57,
-                "type": "Apartment",
-                "price": 2700000.0,
-                "size": 60.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.12816100000001,
-                    18.643501,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 58,
-                "type": "Apartment",
-                "price": 3000000.0,
-                "size": 43.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.370607,
-                    17.9998792,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 59,
-                "type": "Apartment",
-                "price": 9995000.0,
-                "size": 173.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.6997646,
-                    11.9695789,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 60,
-                "type": "Apartment",
-                "price": 3500000.0,
-                "size": 38.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.12816100000001,
-                    18.643501,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 61,
-                "type": "House",
-                "price": 5875000.0,
-                "size": 123.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.5973523,
-                    13.0025822,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 62,
-                "type": "Apartment",
-                "price": 9200000.0,
-                "size": 72.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3467159,
-                    18.0506212,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 63,
-                "type": "Apartment",
-                "price": 3800000.0,
-                "size": 44.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3237269,
-                    18.0035071,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 64,
-                "type": "Apartment",
-                "price": 2300000.0,
-                "size": 29.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3489938,
-                    17.9844415,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 65,
-                "type": "Apartment",
-                "price": 2150000.0,
-                "size": 52.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.8584859,
-                    17.6142016,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 66,
-                "type": "Apartment",
-                "price": 3900000.0,
-                "size": 37.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3372315,
-                    18.0242374,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 67,
-                "type": "Apartment",
-                "price": 1750000.0,
-                "size": 37.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3859305,
-                    17.9510249,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 68,
-                "type": "Apartment",
-                "price": 1200000.0,
-                "size": 74.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.7037189,
-                    11.9653295,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 69,
-                "type": "Apartment",
-                "price": 6700000.0,
-                "size": 86.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.30531999999999,
-                    18.2475,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 70,
-                "type": "Apartment",
-                "price": 3050000.0,
-                "size": 52.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3402162,
-                    18.0347845,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 71,
-                "type": "Apartment",
-                "price": 1525000.0,
-                "size": 57.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.6939672,
-                    11.9539661,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 72,
-                "type": "Apartment",
-                "price": 2850000.0,
-                "size": 64.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.5919412,
-                    13.0118882,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 73,
-                "type": "Apartment",
-                "price": 1495000.0,
-                "size": 56.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.7309642,
-                    11.7641594,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 74,
-                "type": "Apartment",
-                "price": 1950000.0,
-                "size": 41.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.6572211,
-                    11.9927523,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 75,
-                "type": "Apartment",
-                "price": 5225000.0,
-                "size": 42.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3442065,
-                    18.0364893,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 76,
-                "type": "House",
-                "price": 5000000.0,
-                "size": 121.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.8650368,
-                    11.9253123,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 77,
-                "type": "Apartment",
-                "price": 2595000.0,
-                "size": 39.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.2980554,
-                    18.0042468,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 78,
-                "type": "Apartment",
-                "price": 3195000.0,
-                "size": 68.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.590951,
-                    12.9227465,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 79,
-                "type": "Apartment",
-                "price": 5200000.0,
-                "size": 44.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3374657,
-                    18.085653,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 80,
-                "type": "Apartment",
-                "price": 1995000.0,
-                "size": 46.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.7421382,
-                    11.9741365,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 81,
-                "type": "House",
-                "price": 1385000.0,
-                "size": 76.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.8611481,
-                    17.6297383,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 82,
-                "type": "Apartment",
-                "price": 6925000.0,
-                "size": 61.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.333757,
-                    18.0379726,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 83,
-                "type": "Apartment",
-                "price": 1200000.0,
-                "size": 83.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.33358190000001,
-                    14.5508766,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 84,
-                "type": "Apartment",
-                "price": 5800000.0,
-                "size": 100.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.365768,
-                    18.0155838,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 85,
-                "type": "Apartment",
-                "price": 3600000.0,
-                "size": 76.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.8533616,
-                    17.6552419,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 86,
-                "type": "Apartment",
-                "price": 6500000.0,
-                "size": 78.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.336125,
-                    18.0149102,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 87,
-                "type": "Apartment",
-                "price": 2395000.0,
-                "size": 24.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3302034,
-                    18.0477934,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 88,
-                "type": "Apartment",
-                "price": 1750000.0,
-                "size": 51.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.606177,
-                    13.0602678,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 89,
-                "type": "Apartment",
-                "price": 2895000.0,
-                "size": 81.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.8692747,
-                    17.6374663,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 90,
-                "type": "Apartment",
-                "price": 5400000.0,
-                "size": 79.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.2743819,
-                    18.0685473,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 91,
-                "type": "Apartment",
-                "price": 4800000.0,
-                "size": 65.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.369325,
-                    17.9609133,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 92,
-                "type": "Apartment",
-                "price": 8325000.0,
-                "size": 54.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3371109,
-                    18.0807894,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 93,
-                "type": "Apartment",
-                "price": 2100000.0,
-                "size": 80.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.5019498,
-                    14.124747,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 94,
-                "type": "Plot",
-                "price": 750000.0,
-                "size": 28000.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.2207693,
-                    18.2357705,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 95,
-                "type": "Apartment",
-                "price": 3200000.0,
-                "size": 35.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.53205440000001,
-                    13.3719361,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 96,
-                "type": "Apartment",
-                "price": 2295000.0,
-                "size": 46.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.5988487,
-                    12.9836445,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 97,
-                "type": "Apartment",
-                "price": 2160000.0,
-                "size": 86.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.4986701,
-                    17.7478309,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 98,
-                "type": "Apartment",
-                "price": 7150000.0,
-                "size": 59.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3289182,
-                    18.0390455,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 99,
-                "type": "Apartment",
-                "price": 3650000.0,
-                "size": 46.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3629871,
-                    17.976205,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 100,
-                "type": "Apartment",
-                "price": 2000000.0,
-                "size": 56.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.6044609,
-                    16.5597875,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 101,
-                "type": "Apartment",
-                "price": 5850000.0,
-                "size": 64.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3142283,
-                    18.0569482,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 102,
-                "type": "Apartment",
-                "price": 255000.0,
-                "size": 64.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.6133953,
-                    16.176826,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 103,
-                "type": "Apartment",
-                "price": 3400000.0,
-                "size": 82.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.8479685,
-                    17.6005959,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 104,
-                "type": "Apartment",
-                "price": 1785000.0,
-                "size": 43.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.12816100000001,
-                    18.643501,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 105,
-                "type": "Apartment",
-                "price": 1495000.0,
-                "size": 33.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.4193465,
-                    15.6145345,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 106,
-                "type": "Apartment",
-                "price": 725000.0,
-                "size": 88.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.6297776,
-                    16.605296,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 107,
-                "type": "House",
-                "price": 600000.0,
-                "size": 68.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    58.7871053,
-                    15.4968037,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 108,
-                "type": "Apartment",
-                "price": 4100000.0,
-                "size": 96.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    60.12816100000001,
-                    18.643501,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 109,
-                "type": "Apartment",
-                "price": 1800000.0,
-                "size": 69.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.9597302,
-                    17.6965173,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 110,
-                "type": "Apartment",
-                "price": 7000000.0,
-                "size": 56.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3167837,
-                    18.0518089,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 111,
-                "type": "Apartment",
-                "price": 4195000.0,
-                "size": 86.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    63.8278694,
-                    20.2560217,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 112,
-                "type": "Apartment",
-                "price": 1100000.0,
-                "size": 60.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.7897348,
-                    12.0249032,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 113,
-                "type": "Apartment",
-                "price": 3595000.0,
-                "size": 76.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.6154069,
-                    12.9786213,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 114,
-                "type": "SemiDetachedHouse",
-                "price": 1900000.0,
-                "size": 35.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.6734639,
-                    11.9195931,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 115,
-                "type": "Apartment",
-                "price": 2025000.0,
-                "size": 72.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.8902742,
-                    17.6501664,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 116,
-                "type": "LeisureHouse",
-                "price": 900000.0,
-                "size": 70.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.933333,
-                    12.25,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 117,
-                "type": "Apartment",
-                "price": 3270000.0,
-                "size": 80.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3859305,
-                    17.9510249,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 118,
-                "type": "Apartment",
-                "price": 1395000.0,
-                "size": 25.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.8625648,
-                    17.6248023,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 119,
-                "type": "House",
-                "price": 1300000.0,
-                "size": 116.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.38346439999999,
-                    14.9598058,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 120,
-                "type": "Apartment",
-                "price": 1500000.0,
-                "size": 63.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.8812478,
-                    17.6491805,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 121,
-                "type": "Apartment",
-                "price": 2645000.0,
-                "size": 31.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.3629292,
-                    17.9721469,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 122,
-                "type": "Apartment",
-                "price": 2750000.0,
-                "size": 78.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.7460543,
-                    11.9236634,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 123,
-                "type": "Apartment",
-                "price": 3200000.0,
-                "size": 43.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.370607,
-                    17.9998792,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 124,
-                "type": "Apartment",
-                "price": 1150000.0,
-                "size": 59.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    55.5568821,
-                    12.9358192,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 125,
-                "type": "Apartment",
-                "price": 1850000.0,
-                "size": 80.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    59.6125383,
-                    16.5815394,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 126,
-                "type": "Apartment",
-                "price": 4280000.0,
-                "size": 89.0
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    57.7329899,
-                    12.0297876,
-                    0.0
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 127,
                 "type": "Apartment",
-                "price": 5525000.0,
-                "size": 53.0
+                "price": 2995000.0,
+                "size": 95.0
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    59.3470036,
-                    18.059414,
+                    59.440243,
+                    18.072235,
                     0.0
                 ]
             }

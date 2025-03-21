@@ -62,7 +62,7 @@ const Heatmap = ({geojson, radius, opacity}: HeatmapProps) => {
           } 
         }
         return {
-          location: new google.maps.LatLng(lng,lat),
+          location: new google.maps.LatLng(lat, lng),
           weight: w,
         };
       })

@@ -1,129 +1,36 @@
-index,street_name,area,city,price,size,type,lat,lng,alt,Full Address
-0,Erikstorpsgatan 18, Ribersborg , Malmö,4000000.0,82.0,Apartment,55.5990462,12.9783745,0.0,"Erikstorpsgatan 18,  Ribersborg ,  Malmö"
-3,Skeppargatan 83, Gärdet , Stockholm,3350000.0,23.5,Apartment,59.3374657,18.085653,0.0,"Skeppargatan 83,  Gärdet ,  Stockholm"
-5,Bergsunds Strand 42, Hornstull , Stockholm,4100000.0,37.0,Apartment,59.3155147,18.030363,0.0,"Bergsunds Strand 42,  Hornstull ,  Stockholm"
-6,Mandolingatan 3, Ruddalen , Göteborg,2220000.0,68.0,Apartment,57.656358,11.9157238,0.0,"Mandolingatan 3,  Ruddalen ,  Göteborg"
-10,Tunvägen 10, Sandsbro , Växjö,4300000.0,139.0,House,56.9123824,14.8589075,0.0,"Tunvägen 10,  Sandsbro ,  Växjö"
-13,Lasarettsgatan 6, Kungshöjd , Göteborg,4000000.0,62.0,Apartment,57.7032968,11.9578799,0.0,"Lasarettsgatan 6,  Kungshöjd ,  Göteborg"
-19,Tobaksspinnargatan 6, Södermalm Högalid , Stockholm,4200000.0,40.0,Apartment,59.3176105,18.0309933,0.0,"Tobaksspinnargatan 6,  Södermalm Högalid ,  Stockholm"
-21,Kocksgatan 36, Nytorget , Stockholm,3670000.0,30.0,Apartment,59.3144479,18.0810491,0.0,"Kocksgatan 36,  Nytorget ,  Stockholm"
-30,Kadettgatan 1, Vasastan , Stockholm,10400000.0,88.0,Apartment,56.0718178,12.7102363,0.0,"Kadettgatan 1,  Vasastan ,  Stockholm"
-32,Kungsholms Strand 141, Kungsholmen , Stockholm,4725000.0,45.0,Apartment,59.3311812,18.0407362,0.0,"Kungsholms Strand 141,  Kungsholmen ,  Stockholm"
-33,Holmgårdsgatan 42, Raus , Helsingborg,1450000.0,63.0,TerracedHouse,56.0100742,12.7628975,0.0,"Holmgårdsgatan 42,  Raus ,  Helsingborg"
-34,Erikstorpsgatan 18, Ribersborg , Malmö,4000000.0,82.0,Apartment,55.5990462,12.9783745,0.0,"Erikstorpsgatan 18,  Ribersborg ,  Malmö"
-37,Skeppargatan 83, Gärdet , Stockholm,3350000.0,23.5,Apartment,59.3374657,18.085653,0.0,"Skeppargatan 83,  Gärdet ,  Stockholm"
-39,Bergsunds Strand 42, Hornstull , Stockholm,4100000.0,37.0,Apartment,59.3155147,18.030363,0.0,"Bergsunds Strand 42,  Hornstull ,  Stockholm"
-40,Mandolingatan 3, Ruddalen , Göteborg,2220000.0,68.0,Apartment,57.656358,11.9157238,0.0,"Mandolingatan 3,  Ruddalen ,  Göteborg"
-44,Tunvägen 10, Sandsbro , Växjö,4300000.0,139.0,House,56.9123824,14.8589075,0.0,"Tunvägen 10,  Sandsbro ,  Växjö"
-47,Lasarettsgatan 6, Kungshöjd , Göteborg,4000000.0,62.0,Apartment,57.7032968,11.9578799,0.0,"Lasarettsgatan 6,  Kungshöjd ,  Göteborg"
-53,Tobaksspinnargatan 6, Södermalm Högalid , Stockholm,4200000.0,40.0,Apartment,59.3176105,18.0309933,0.0,"Tobaksspinnargatan 6,  Södermalm Högalid ,  Stockholm"
-55,Kocksgatan 36, Nytorget , Stockholm,3670000.0,30.0,Apartment,59.3144479,18.0810491,0.0,"Kocksgatan 36,  Nytorget ,  Stockholm"
-64,Kadettgatan 1, Vasastan , Stockholm,10400000.0,88.0,Apartment,56.0718178,12.7102363,0.0,"Kadettgatan 1,  Vasastan ,  Stockholm"
-66,Kungsholms Strand 141, Kungsholmen , Stockholm,4725000.0,45.0,Apartment,59.3311812,18.0407362,0.0,"Kungsholms Strand 141,  Kungsholmen ,  Stockholm"
-67,Holmgårdsgatan 42, Raus , Helsingborg,1450000.0,63.0,TerracedHouse,56.0100742,12.7628975,0.0,"Holmgårdsgatan 42,  Raus ,  Helsingborg"
-69,Blekingegatan 16, Södermalm , Stockholm,3800000.0,30.5,Apartment,59.3100628,18.071565,0.0,"Blekingegatan 16,  Södermalm ,  Stockholm"
-73,Valhallagatan 54, Valhall , Skara,100000.0,65.0,Apartment,58.4022189,15.6378197,0.0,"Valhallagatan 54,  Valhall ,  Skara"
-77,Eklanda Fält 4, Eklanda , Mölndal,7300000.0,165.0,SemiDetachedHouse,57.65103149999999,11.96584,0.0,"Eklanda Fält 4,  Eklanda ,  Mölndal"
-81,Nystrandsgatan 10, Torpa , Jönköping,4900000.0,156.0,House,59.3856574,16.5100687,0.0,"Nystrandsgatan 10,  Torpa ,  Jönköping"
-89,Föreningsgatan 54A, Rörsjöstaden , Malmö,2995000.0,81.5,Apartment,60.12816100000001,18.643501,0.0,"Föreningsgatan 54A,  Rörsjöstaden ,  Malmö"
-90,Strandvägen 13B, Vågmästaren , Karlstad,1995000.0,79.0,Apartment,59.331805,18.0881769,0.0,"Strandvägen 13B,  Vågmästaren ,  Karlstad"
-92,Kristinebergsvägen 12, Kungsholmen , Stockholm,5100000.0,62.5,Apartment,59.3332648,18.015007,0.0,"Kristinebergsvägen 12,  Kungsholmen ,  Stockholm"
-96,Piravägen 11, Gnarp , Nordanstig,975000.0,117.0,House,62.0480908,17.2604849,0.0,"Piravägen 11,  Gnarp ,  Nordanstig"
-97,Medoragatan 3, Medora , Älvkarleby,1100000.0,130.0,House,60.6388802,17.394266,0.0,"Medoragatan 3,  Medora ,  Älvkarleby"
-99,Gyllenborgsgatan 14, Kungsholmen , Stockholm,3295000.0,39.0,Apartment,59.3325809,18.0163326,0.0,"Gyllenborgsgatan 14,  Kungsholmen ,  Stockholm"
-101,Valhallagatan 15B, Valhall , Skara,170000.0,71.0,Apartment,58.4022189,15.6378197,0.0,"Valhallagatan 15B,  Valhall ,  Skara"
-102,Hallsnäs 8, Ramkvilla , Vetlanda,2500000.0,116.0,House,57.2038363,14.9358645,0.0,"Hallsnäs 8,  Ramkvilla ,  Vetlanda"
-105,Brudvägen 1, Iggesund , Hudiksvall,625000.0,88.0,House,60.12816100000001,18.643501,0.0,"Brudvägen 1,  Iggesund ,  Hudiksvall"
-107,Stagneliusvägen 23, Kungsholmen , Stockholm,2795000.0,34.5,Apartment,59.3290845,18.0048243,0.0,"Stagneliusvägen 23,  Kungsholmen ,  Stockholm"
-113,Litsvägen 22, Karlslund , Östersund,1875000.0,67.0,Apartment,58.48052130000001,16.0400533,0.0,"Litsvägen 22,  Karlslund ,  Östersund"
-114,Hugingatan 5, Valsta , Sigtuna,980000.0,68.0,Apartment,59.6203223,17.8280409,0.0,"Hugingatan 5,  Valsta ,  Sigtuna"
-116,Valhallagatan 23A, Valhall , Skara,170000.0,63.0,Apartment,58.4022189,15.6378197,0.0,"Valhallagatan 23A,  Valhall ,  Skara"
-117,Alphyddevägen 29, Alphyddan , Nacka,2800000.0,42.5,Apartment,59.3075964,18.1240721,0.0,"Alphyddevägen 29,  Alphyddan ,  Nacka"
-120,Skegrie Byaväg 50, Skegrie , Trelleborg,4300000.0,136.0,House,55.4057079,13.0786577,0.0,"Skegrie Byaväg 50,  Skegrie ,  Trelleborg"
-121,Kungsgatan 40, Centrum , Örebro,2015000.0,61.0,Apartment,63.8247665,20.2693161,0.0,"Kungsgatan 40,  Centrum ,  Örebro"
-125,Uppgårdsvägen 8, Solhem , Stockholm,5400000.0,109.0,TerracedHouse,59.33623219999999,18.0904431,0.0,"Uppgårdsvägen 8,  Solhem ,  Stockholm"
-127,Finntorpsvägen 11, Sickla , Nacka,3420000.0,53.0,Apartment,59.3032129,18.1150691,0.0,"Finntorpsvägen 11,  Sickla ,  Nacka"
-128,Transistorgatan 31, Järnbrott , Göteborg,2525000.0,66.0,Apartment,57.657061,11.9219421,0.0,"Transistorgatan 31,  Järnbrott ,  Göteborg"
-129,Birger Jarlsgatan 81, Vasastan , Stockholm,5450000.0,49.0,Apartment,59.3413505,18.0655154,0.0,"Birger Jarlsgatan 81,  Vasastan ,  Stockholm"
-130,Prinsgatan 25, Centrum , Karlshamn,1375000.0,80.0,Apartment,56.170303,14.863073,0.0,"Prinsgatan 25,  Centrum ,  Karlshamn"
-132,Bangatan 35, Nordanby , Västerås,1345000.0,63.5,Apartment,57.6945438,11.9361732,0.0,"Bangatan 35,  Nordanby ,  Västerås"
-137,Sjöfartsgatan 6, Hammarby Sjöstad , Stockholm,9750000.0,94.0,Apartment,59.3327036,18.0656255,0.0,"Sjöfartsgatan 6,  Hammarby Sjöstad ,  Stockholm"
-143,Vendevägen 5C, Djursholm , Danderyd,4500000.0,61.0,Apartment,60.12816100000001,18.643501,0.0,"Vendevägen 5C,  Djursholm ,  Danderyd"
-144,Granbacksgatan 4, Skaraborg , Tidaholm,1200000.0,72.0,House,58.1877421,13.958024,0.0,"Granbacksgatan 4,  Skaraborg ,  Tidaholm"
-146,Plockerotegatan 245, Backatorp , Göteborg,2770000.0,81.0,Apartment,57.7602208,11.9682106,0.0,"Plockerotegatan 245,  Backatorp ,  Göteborg"
-148,Gullmarsvägen 2, Johanneshov , Stockholm,6995000.0,92.0,Apartment,59.2983844,18.074503,0.0,"Gullmarsvägen 2,  Johanneshov ,  Stockholm"
-150,Norbyvägen 77B, Sommarro , Uppsala,1610000.0,27.0,Apartment,59.8440829,17.6161064,0.0,"Norbyvägen 77B,  Sommarro ,  Uppsala"
-151,Skyttelgatan 18, Kungsängen , Uppsala,2400000.0,46.0,Apartment,59.8483608,17.653576,0.0,"Skyttelgatan 18,  Kungsängen ,  Uppsala"
-152,Torsgatan 48B, Vasastan , Stockholm,9325000.0,70.0,Apartment,59.3394903,18.0392934,0.0,"Torsgatan 48B,  Vasastan ,  Stockholm"
-154,Friggagatan 3A, Stampen , Göteborg,3250000.0,60.0,Apartment,57.7120187,11.9884212,0.0,"Friggagatan 3A,  Stampen ,  Göteborg"
-155,Sankt Pauli Kyrkogata 17, Rörsjöstaden , Malmö,2700000.0,60.0,Apartment,60.12816100000001,18.643501,0.0,"Sankt Pauli Kyrkogata 17,  Rörsjöstaden ,  Malmö"
-157,Evenemangsgatan 24, Arenastaden , Solna,3000000.0,43.0,Apartment,59.370607,17.9998792,0.0,"Evenemangsgatan 24,  Arenastaden ,  Solna"
-159,Vasaplatsen 6A, Vasastaden , Göteborg,9995000.0,173.0,Apartment,57.6997646,11.9695789,0.0,"Vasaplatsen 6A,  Vasastaden ,  Göteborg"
-160,Rosengatan 8, Centrala , Sundbyberg,3500000.0,38.0,Apartment,60.12816100000001,18.643501,0.0,"Rosengatan 8,  Centrala ,  Sundbyberg"
-161,Källbogatan 1, Virentofta , Malmö,5875000.0,123.0,House,55.5973523,13.0025822,0.0,"Källbogatan 1,  Virentofta ,  Malmö"
-162,Hagagatan 12, Vasastan , Stockholm,9200000.0,72.0,Apartment,59.3467159,18.0506212,0.0,"Hagagatan 12,  Vasastan ,  Stockholm"
-163,Primusgatan 53, Lilla Essingen , Stockholm,3800000.0,44.5,Apartment,59.3237269,18.0035071,0.0,"Primusgatan 53,  Lilla Essingen ,  Stockholm"
-165,Jungfrudansen 30, Huvudsta , Solna,2300000.0,29.0,Apartment,59.3489938,17.9844415,0.0,"Jungfrudansen 30,  Huvudsta ,  Solna"
-166,Luthagsesplanaden 26B, Luthagen , Uppsala,2150000.0,52.0,Apartment,59.8584859,17.6142016,0.0,"Luthagsesplanaden 26B,  Luthagen ,  Uppsala"
-168,Igeldammsgatan 34, Kungsholmen , Stockholm,3900000.0,37.0,Apartment,59.3372315,18.0242374,0.0,"Igeldammsgatan 34,  Kungsholmen ,  Stockholm"
-171,Marieborgsgatan 67, Ursvik , Sundbyberg,1750000.0,37.0,Apartment,59.3859305,17.9510249,0.0,"Marieborgsgatan 67,  Ursvik ,  Sundbyberg"
-174,Vallgatan 7, Centrum , Lidköping,1200000.0,74.0,Apartment,57.7037189,11.9653295,0.0,"Vallgatan 7,  Centrum ,  Lidköping"
-176,Fabrikörvägen 10D, Nacka Strand , Nacka,6700000.0,86.0,Apartment,59.30531999999999,18.2475,0.0,"Fabrikörvägen 10D,  Nacka Strand ,  Nacka"
-179,Birkagatan 45B, Örgryte , Göteborg,3050000.0,52.0,Apartment,59.3402162,18.0347845,0.0,"Birkagatan 45B,  Örgryte ,  Göteborg"
-185,Sveagatan 103B, Limhamn , Malmö,1525000.0,57.0,Apartment,57.6939672,11.9539661,0.0,"Sveagatan 103B,  Limhamn ,  Malmö"
-189,Kristianstadsgatan 17C, Möllevången , Malmö,2850000.0,64.0,Apartment,55.5919412,13.0118882,0.0,"Kristianstadsgatan 17C,  Möllevången ,  Malmö"
-191,Runslingan 2A, Linero , Lund,1495000.0,56.0,Apartment,57.7309642,11.7641594,0.0,"Runslingan 2A,  Linero ,  Lund"
-194,Bifrostgatan 48E, Pedagogen Park , Mölndal,1950000.0,41.0,Apartment,57.6572211,11.9927523,0.0,"Bifrostgatan 48E,  Pedagogen Park ,  Mölndal"
-195,Falugatan 16, Vasastan , Stockholm,5225000.0,42.5,Apartment,59.3442065,18.0364893,0.0,"Falugatan 16,  Vasastan ,  Stockholm"
-197,Ulvesund 430, Ytterby , Kungälv,5000000.0,121.0,House,57.8650368,11.9253123,0.0,"Ulvesund 430,  Ytterby ,  Kungälv"
-198,Radiusbacken 49, Midsommarkransen , Stockholm,2595000.0,39.0,Apartment,59.2980554,18.0042468,0.0,"Radiusbacken 49,  Midsommarkransen ,  Stockholm"
-199,Sundholmsgatan 4, Limhamn , Malmö,3195000.0,68.5,Apartment,55.590951,12.9227465,0.0,"Sundholmsgatan 4,  Limhamn ,  Malmö"
-204,Skeppargatan 80, Östermalm , Stockholm,5200000.0,44.0,Apartment,59.3374657,18.085653,0.0,"Skeppargatan 80,  Östermalm ,  Stockholm"
-205,Litteraturgatan 224, Hisings Backa , Göteborg,1995000.0,46.0,Apartment,57.7421382,11.9741365,0.0,"Litteraturgatan 224,  Hisings Backa ,  Göteborg"
-209,Skolgatan 13, Påskallavik , Oskarshamn,1385000.0,76.0,House,59.8611481,17.6297383,0.0,"Skolgatan 13,  Påskallavik ,  Oskarshamn"
-211,Fleminggatan 21A, Kungsholmen , Stockholm,6925000.0,61.0,Apartment,59.333757,18.0379726,0.0,"Fleminggatan 21A,  Kungsholmen ,  Stockholm"
-217,Rosendal 33A, Rosendal , Karlskoga,1200000.0,83.0,Apartment,59.33358190000001,14.5508766,0.0,"Rosendal 33A,  Rosendal ,  Karlskoga"
-221,Almagatan 10, Haga Norra , Solna,5800000.0,100.0,Apartment,59.365768,18.0155838,0.0,"Almagatan 10,  Haga Norra ,  Solna"
-223,Kryddblandargatan 1, Centrum , Uppsala,3600000.0,76.0,Apartment,59.8533616,17.6552419,0.0,"Kryddblandargatan 1,  Centrum ,  Uppsala"
-225,Kellgrensgatan 10, Kungsholmen , Stockholm,6500000.0,78.5,Apartment,59.336125,18.0149102,0.0,"Kellgrensgatan 10,  Kungsholmen ,  Stockholm"
-226,Kungsklippan 11, Kungsholmen , Stockholm,2395000.0,24.0,Apartment,59.3302034,18.0477934,0.0,"Kungsklippan 11,  Kungsholmen ,  Stockholm"
-239,Södra Bulltoftavägen 25, Kirseberg , Malmö,1750000.0,51.5,Apartment,55.606177,13.0602678,0.0,"Södra Bulltoftavägen 25,  Kirseberg ,  Malmö"
-240,Portalgatan 77, Kapellgärdet , Uppsala,2895000.0,81.5,Apartment,59.8692747,17.6374663,0.0,"Portalgatan 77,  Kapellgärdet ,  Uppsala"
-241,Paketgränd 15, Farsta stadsdelsområde , Stockholm,5400000.0,79.0,Apartment,59.2743819,18.0685473,0.0,"Paketgränd 15,  Farsta stadsdelsområde ,  Stockholm"
-244,Götgatan 10, Centrala Sundbyberg , Sundbyberg,4800000.0,65.0,Apartment,59.369325,17.9609133,0.0,"Götgatan 10,  Centrala Sundbyberg ,  Sundbyberg"
-245,Sibyllegatan 40, Östermalm , Stockholm,8325000.0,54.0,Apartment,59.3371109,18.0807894,0.0,"Sibyllegatan 40,  Östermalm ,  Stockholm"
-247,Kaveldunsgatan 6B, Västra Strand , Vaggeryd,2100000.0,80.0,Apartment,57.5019498,14.124747,0.0,"Kaveldunsgatan 6B,  Västra Strand ,  Vaggeryd"
-249,Silte Smissarve 215, Kvarnåkershamn , Gotland,750000.0,28000.0,Plot,57.2207693,18.2357705,0.0,"Silte Smissarve 215,  Kvarnåkershamn ,  Gotland"
-253,Husabyvägen 19, Aspudden , Stockholm,3200000.0,35.0,Apartment,58.53205440000001,13.3719361,0.0,"Husabyvägen 19,  Aspudden ,  Stockholm"
-255,Regementsgatan 27A, Ribersborg , Malmö,2295000.0,46.0,Apartment,55.5988487,12.9836445,0.0,"Regementsgatan 27A,  Ribersborg ,  Malmö"
-256,Trombonstigen 4, Kungsängen , Upplands-Bro,2160000.0,86.5,Apartment,59.4986701,17.7478309,0.0,"Trombonstigen 4,  Kungsängen ,  Upplands-Bro"
-260,Pilgatan 19C, Kungsholmen , Stockholm,7150000.0,59.0,Apartment,59.3289182,18.0390455,0.0,"Pilgatan 19C,  Kungsholmen ,  Stockholm"
-262,Vintergatan 1, Sundbyberg/Duvbo , Sundbyberg,3650000.0,46.0,Apartment,59.3629871,17.976205,0.0,"Vintergatan 1,  Sundbyberg/Duvbo ,  Sundbyberg"
-263,Fyrtornsgatan 3C, Lillåudden , Västerås,2000000.0,56.5,Apartment,59.6044609,16.5597875,0.0,"Fyrtornsgatan 3C,  Lillåudden ,  Västerås"
-264,Rosenlundsgatan 38A, Södermalm , Stockholm,5850000.0,64.0,Apartment,59.3142283,18.0569482,0.0,"Rosenlundsgatan 38A,  Södermalm ,  Stockholm"
-265,Malmgatan 13D, Centrum , Åmål,255000.0,64.0,Apartment,58.6133953,16.176826,0.0,"Malmgatan 13D,  Centrum ,  Åmål"
-267,Basarbovägen 4, Ekeby , Uppsala,3400000.0,82.0,Apartment,59.8479685,17.6005959,0.0,"Basarbovägen 4,  Ekeby ,  Uppsala"
-268,Elgentorpsvägen 12, Tullinge , Botkyrka,1785000.0,43.5,Apartment,60.12816100000001,18.643501,0.0,"Elgentorpsvägen 12,  Tullinge ,  Botkyrka"
-269,Thorells gata 8, Vasastaden , Linköping,1495000.0,33.5,Apartment,58.4193465,15.6145345,0.0,"Thorells gata 8,  Vasastaden ,  Linköping"
-270,Benvägen 50, Bjurhovda , Västerås,725000.0,88.5,Apartment,59.6297776,16.605296,0.0,"Benvägen 50,  Bjurhovda ,  Västerås"
-272,Örebrovägen 424, Ljusfallshammar , Finspång,600000.0,68.0,House,58.7871053,15.4968037,0.0,"Örebrovägen 424,  Ljusfallshammar ,  Finspång"
-273,Rissneleden 165, Duvbo , Sundbyberg,4100000.0,96.0,Apartment,60.12816100000001,18.643501,0.0,"Rissneleden 165,  Duvbo ,  Sundbyberg"
-276,Morgonvägen 29, Storvreta , Uppsala,1800000.0,69.0,Apartment,59.9597302,17.6965173,0.0,"Morgonvägen 29,  Storvreta ,  Uppsala"
-277,Krukmakargatan 2, Södermalm , Stockholm,7000000.0,56.0,Apartment,59.3167837,18.0518089,0.0,"Krukmakargatan 2,  Södermalm ,  Stockholm"
-279,Bankgatan 15B, Centrum , Lund,4195000.0,86.0,Apartment,63.8278694,20.2560217,0.0,"Bankgatan 15B,  Centrum ,  Lund"
-283,Stekastigen 4, Agnesberg , Göteborg,1100000.0,60.5,Apartment,57.7897348,12.0249032,0.0,"Stekastigen 4,  Agnesberg ,  Göteborg"
-289,Flaggskeppsgatan 6, Västra Hamnen , Malmö,3595000.0,76.0,Apartment,55.6154069,12.9786213,0.0,"Flaggskeppsgatan 6,  Västra Hamnen ,  Malmö"
-293,Sjupundsgatan 27, Högsbo , Göteborg,1900000.0,35.0,SemiDetachedHouse,57.6734639,11.9195931,0.0,"Sjupundsgatan 27,  Högsbo ,  Göteborg"
-297,Leopoldsgatan 19, Nyby , Uppsala,2025000.0,72.0,Apartment,59.8902742,17.6501664,0.0,"Leopoldsgatan 19,  Nyby ,  Uppsala"
-303,Kollanda 412, Älvängen , Ale,900000.0,70.0,LeisureHouse,57.933333,12.25,0.0,"Kollanda 412,  Älvängen ,  Ale"
-308,Marieborgsgatan 65, Ursvik , Sundbyberg,3270000.0,80.0,Apartment,59.3859305,17.9510249,0.0,"Marieborgsgatan 65,  Ursvik ,  Sundbyberg"
-309,Sysslomansgatan 7, Främre Luthagen , Uppsala,1395000.0,25.0,Apartment,59.8625648,17.6248023,0.0,"Sysslomansgatan 7,  Främre Luthagen ,  Uppsala"
-310,Svente Knubbs väg 1, Myresjö , Vetlanda,1300000.0,116.0,House,57.38346439999999,14.9598058,0.0,"Svente Knubbs väg 1,  Myresjö ,  Vetlanda"
-311,Ferlinsgatan 55, Löten , Uppsala,1500000.0,63.0,Apartment,59.8812478,17.6491805,0.0,"Ferlinsgatan 55,  Löten ,  Uppsala"
-313,Rosengatan 8, Sundbyberg/Duvbo , Sundbyberg,2645000.0,31.0,Apartment,59.3629292,17.9721469,0.0,"Rosengatan 8,  Sundbyberg/Duvbo ,  Sundbyberg"
-314,Brunnehagen 9, Tuve , Göteborg,2750000.0,78.5,Apartment,57.7460543,11.9236634,0.0,"Brunnehagen 9,  Tuve ,  Göteborg"
-320,Evenemangsgatan 34, Arenastaden , Solna,3200000.0,43.0,Apartment,59.370607,17.9998792,0.0,"Evenemangsgatan 34,  Arenastaden ,  Solna"
-321,Sadelmakarebyn 4C, Bunkeflostrand , Malmö,1150000.0,59.0,Apartment,55.5568821,12.9358192,0.0,"Sadelmakarebyn 4C,  Bunkeflostrand ,  Malmö"
-323,Klockargatan 16C, Klockartorpet , Västerås,1850000.0,80.5,Apartment,59.6125383,16.5815394,0.0,"Klockargatan 16C,  Klockartorpet ,  Västerås"
-327,Soldathemsgatan 16, Kviberg , Göteborg,4280000.0,89.0,Apartment,57.7329899,12.0297876,0.0,"Soldathemsgatan 16,  Kviberg ,  Göteborg"
-329,Roslagsgatan 29A, Vasastan , Stockholm,5525000.0,53.0,Apartment,59.3470036,18.059414,0.0,"Roslagsgatan 29A,  Vasastan ,  Stockholm"
+index,street_name,area,city,price,size,type,lat,lng,alt
+0,Nybohovsbacken 75,Liljeholmen,Stockholm,4275000.0,71.0,Apartment,59.30846932,18.01402735,0.0
+1,Vanadisplan 6,Vasastan,Stockholm,4360000.0,35.0,Apartment,59.34507521,18.03836255,0.0
+2,Stenkvistavägen 1,Eskilstuna kommun,Eskilstuna,1450000.0,58.0,Apartment,59.3619575,16.51263925,0.0
+3,Tiundagatan 47,Luthagen,Uppsala,2000000.0,59.0,Apartment,59.862316,17.605513,0.0
+4,Hornsgatan 149,Södermalm Högalid,Stockholm,7625000.0,66.0,Apartment,59.31504496,18.03286782,0.0
+5,Fritzbergsvägen 4E,Bällsta,Vallentuna,2650000.0,63.0,Apartment,59.51358618,18.06939456,0.0
+6,Klas Klättermus gata 5,Bromma,Stockholm,6400000.0,95.0,Apartment,59.36400258,17.95331014,0.0
+7,Radiusbacken 39,Midsommarkransen,Stockholm,3550000.0,51.0,Apartment,59.29807189,18.00466667,0.0
+8,Birger Jarlsgatan 104G,Vasastan,Stockholm,3000000.0,21.0,Apartment,59.34743545,18.06263104,0.0
+9,Alströmergatan 32B,Kungsholmen,Stockholm,4100000.0,38.0,Apartment,59.33690068,18.02613146,0.0
+10,Bällstavägen 240B,Beckomberga,Stockholm,2720000.0,59.0,Apartment,59.3549297,17.9057211,0.0
+11,Kryddgårdsgränd 5,Trollbäcken,Tyresö,2275000.0,63.5,Apartment,59.22894972,18.23069602,0.0
+12,Södra Stapeltorgsgatan 28A,Söder,Gävle,1775000.0,73.5,Apartment,60.66668,17.14708,0.0
+13,Askrikegatan 11,Gärdet,Stockholm,4500000.0,40.0,Apartment,59.34458927,18.09705757,0.0
+14,Skattegårdsvägen 57,Vällingby Centrum,Stockholm,2750000.0,78.5,Apartment,59.3680476,17.8684347,0.0
+15,Bergskroken 10,Krokslätt,Mölndal,3650000.0,61.0,Apartment,57.6687,12.0076,0.0
+16,Linnefjället 1,Torslanda,Göteborg,8450000.0,172.0,House,57.71185844,11.76274854,0.0
+17,Ljungatan 958,Ljungbyhed,Klippan,1150000.0,58.0,House,56.03893575,13.29583805,0.0
+18,Per Wickenbergsgatan 3,Ribersborg,Malmö,2895000.0,65.0,Apartment,55.60135,12.981886,0.0
+19,Liljeholmsgränd 9,Liljeholmen,Stockholm,9200000.0,116.0,Apartment,59.3109823,18.02308797,0.0
+20,Vintrosagatan 50,Hagsätra,Stockholm,2500000.0,73.0,Apartment,59.26087867,18.01940445,0.0
+21,Torstenssonsgatan 6A,Östermalm,Stockholm,19350000.0,119.0,Apartment,59.3329112,18.089431,0.0
+22,Hornsgatan 94,Södermalm Högalid,Stockholm,5100000.0,53.0,Apartment,59.3177406,18.05241415,0.0
+23,Rörläggarvägen 17,Bromma Abrahamsberg,Stockholm,5460000.0,75.0,Apartment,59.33009999,17.94823286,0.0
+24,Kungsholms Hamnplan 3C,Kungsholmen,Stockholm,16600000.0,128.0,Apartment,59.32736409,18.04549638,0.0
+25,Hägerstensvägen 211,Aspudden,Stockholm,3415000.0,48.0,Apartment,59.30442665,17.98621933,0.0
+26,Tomtebogatan 33,Vasastan,Stockholm,14775000.0,109.0,Apartment,59.34159051,18.02975419,0.0
+27,Sveavägen 105B,Vasastan Odenplan,Stockholm,13000000.0,135.0,Apartment,59.34575423,18.05343167,0.0
+28,Jonstorpsvägen 22,Huvudsta,Solna,4160000.0,81.0,Apartment,59.35256247,17.97974824,0.0
+29,Tegelviksgatan 6B,Södermalm,Stockholm,8495000.0,97.0,Apartment,59.31286183,18.09920368,0.0
+30,Bäckvägen 41,Midsommarkransen,Stockholm,3610000.0,83.8,Apartment,59.30340051,18.0013084,0.0
+31,Torsbovägen 2B,Torsbo,Vaggeryd,720000.0,43.0,Apartment,57.505653,14.141899,0.0
+32,Viksjöplan 44,Viksjö,Järfälla,2870000.0,55.5,Apartment,59.4118338,17.8003702,0.0
+33,Georg Nyströmsgatan 32,Torshälla,Eskilstuna,1200000.0,67.0,Apartment,59.41626,16.48934,0.0
+34,Grindtorpsvägen 45,Grindtorp,Täby,2995000.0,95.0,Apartment,59.440243,18.072235,0.0
