@@ -1,8 +1,8 @@
-import {useEffect, useMemo} from 'react';
-import {useMap, useMapsLibrary} from '@vis.gl/react-google-maps';
-import {FeatureCollection, Point, GeoJsonProperties} from 'geojson';
-import {sigmoid} from './activation';
-import { useSearchParams} from 'react-router';
+import { useEffect, useMemo } from 'react';
+import { useMap, useMapsLibrary } from '@vis.gl/react-google-maps';
+import { FeatureCollection, Point, GeoJsonProperties } from 'geojson';
+import { activate, activateSqrt, gaussian, sigmoid, sigmoidAbs } from './activation';
+import { useSearchParams } from 'react-router';
 
 
 type HeatmapProps = {
@@ -24,7 +24,7 @@ enum HomeTypes {
 }
 
 
-const Heatmap = ({geojson, radius, opacity}: HeatmapProps) => {
+const Heatmap = ({ geojson, radius, opacity }: HeatmapProps) => {
   const map = useMap();
   const visualization = useMapsLibrary('visualization');
 
@@ -39,34 +39,36 @@ const Heatmap = ({geojson, radius, opacity}: HeatmapProps) => {
 
   const [searchParams, setSearchParams] = useSearchParams();
   const isTargetPriceChecked = searchParams.get('IsTargetPriceChecked') === "true";
-  const targetPrice = searchParams.get('TargetPrice')?? "1000000";
-  const isHomeSizeChecked = searchParams.get('IsHomeSizeChecked') === "false";
-  const homeSize = searchParams.get('HomeSize')?? "0";
-  const homeTypes = (searchParams.get('HomeTypes')?? Object.values(HomeTypes).toString()).split(",");
+  const targetPrice = searchParams.get('TargetPrice') ?? "1000000";
+  const isHomeSizeChecked = searchParams.get('IsHomeSizeChecked') === "true";
+  const homeSize = searchParams.get('HomeSize') ?? "0";
+  const homeTypes = (searchParams.get('HomeTypes') ?? Object.values(HomeTypes).toString()).split(",");
 
   useEffect(() => {
     if (!heatmap) return;
 
-    heatmap.setData(
-      geojson.features.map(point => {
-        const [lng, lat] = point.geometry.coordinates;
-        let w:number = 0.0001;
-        console.log(homeTypes);
-        if (homeTypes.includes(point.properties?.type)){
-          if (Boolean(isHomeSizeChecked))
-          {
-            w += 1 / ( 1 +  Math.abs(+homeSize - point.properties?.size))
-          }
-          if (Boolean(isTargetPriceChecked)){
-            w += 1 / (1 + (Math.abs(point.properties?.price - +targetPrice)/(+targetPrice* 0.1))^0.5);
-          } 
+    const data: google.maps.visualization.WeightedLocation[] = [];
+    for (const point of geojson.features) {
+      const [lat, lng] = point.geometry.coordinates;
+      let w: number = 0.0001;
+      if (homeTypes.includes(point.properties?.type)) {
+        if (Boolean(isHomeSizeChecked)) {
+          w += gaussian((+homeSize - +point.properties?.size)*0.1);
         }
-        return {
-          location: new google.maps.LatLng(lng, lat),
-          weight: w,
-        };
-      })
-    );
+        if (Boolean(isTargetPriceChecked)) {
+          let propPrice = +point.properties?.price;
+          w += activateSqrt(propPrice / (propPrice - +targetPrice));
+        }
+        console.log(w);
+      }
+      console.log();
+      w = Math.max(w, 0.000001);
+      data.push({
+        location: new google.maps.LatLng(lng, lat),
+        weight: w,
+      });
+    }
+    heatmap.setData(data);
   }, [heatmap, geojson, radius, opacity, isTargetPriceChecked, targetPrice, homeSize, isHomeSizeChecked]);
 
   useEffect(() => {

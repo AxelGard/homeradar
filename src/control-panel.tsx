@@ -20,7 +20,7 @@ function ControlPanel({
   return (
     <div className="control-panel">
       <p>
-        This heat map lets you find areas to look for houses or apartments which you might be interested. 
+        This heat map lets you find areas to look for property which you might be interested. 
       </p>
 
       <div style={{marginBottom: '2rem'}}>
