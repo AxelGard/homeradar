@@ -17,7 +17,7 @@ export function sigmoidAbs(x:number):number
     return 1 / (3 + Math.exp(Math.abs(x))); 
 }
 
-export function gaussian(x:number):number
+export function gaussian(x:number, sharp:number=1):number
 {
-    return Math.exp(-1*(x*x)) 
+    return Math.exp(-1*(x*x*sharp)) 
 }

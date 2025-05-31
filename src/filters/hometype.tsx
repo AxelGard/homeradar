@@ -54,7 +54,9 @@ export function HomeType() {
   return (
     <div>
       <Dropdown autoClose="outside">
-        <Dropdown.Toggle variant="primary" id="dropdown-basic">
+        <Dropdown.Toggle variant="primary" id="dropdown-basic" style={{
+          fontSize:"0.9rem",
+        }}>
           Home types
         </Dropdown.Toggle>
         <Dropdown.Menu>

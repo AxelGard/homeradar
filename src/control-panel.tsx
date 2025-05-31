@@ -2,6 +2,7 @@ import * as React from 'react';
 import { InputGroup } from 'react-bootstrap';
 import { HomeType } from "./filters/hometype";
 import { HomeSize  } from "./filters/size";
+import { ResetFilters } from "./filters/reset";
 import {  TargetPrice } from "./filters/targetprice";
 
 type Props = {
@@ -20,7 +21,7 @@ function ControlPanel({
   return (
     <div className="control-panel">
       <p>
-        This heat map lets you find areas to look for property which you might be interested. 
+        This heat map lets you find areas to look for property which you might be interested in. 
       </p>
 
       <div style={{marginBottom: '2rem'}}>
@@ -59,6 +60,7 @@ function ControlPanel({
             <TargetPrice></TargetPrice>            
             <HomeSize></HomeSize>
             <HomeType></HomeType>
+            <ResetFilters></ResetFilters>
 
         </div>
       </div>
