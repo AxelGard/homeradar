@@ -8,7 +8,7 @@ import Heatmap from './heatmap';
 import {EarthquakesGeojson, loadEarthquakeGeojson} from './earthquakes';
 import {NavigationBar} from './navbar'
 
-const API_KEY = ""
+const API_KEY = "AIzaSyAAMcxBbRVpF_8MfQM-Qr25KKjvgW2rEhw" 
 
 const App = () => {
   const [radius, setRadius] = useState(25);
