@@ -4,6 +4,7 @@ export default defineConfig(({mode}) => {
   const {GOOGLE_MAPS_API_KEY = ''} = loadEnv(mode, process.cwd(), '');
 
   return {
+    base: '/homeradar/',
     define: {
       'process.env.GOOGLE_MAPS_API_KEY': JSON.stringify(GOOGLE_MAPS_API_KEY)
     },
