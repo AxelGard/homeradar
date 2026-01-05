@@ -11,7 +11,7 @@ export function NavigationBar() {
           <Navbar.Brand href="#home">HomeRadar</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Heatmap</Nav.Link>
-            <Nav.Link href="#features">About</Nav.Link>
+            <Nav.Link href="https://github.com/AxelGard/homeradar">About</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
