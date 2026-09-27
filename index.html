@@ -20,14 +20,43 @@
       #app {
         width: 100vw;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .control-panel {
+        font-size: 14px;
+        line-height: 18px;
+        width: 284px;
+        background: #fff;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+        margin: 24px;
+        padding: 12px 24px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        outline: none;
+        cursor: auto;
+        box-sizing: border-box;
+        z-index: 1;
+      }
+      .control-panel p {
+        margin-bottom: 16px;
+      }
+      .control-panel .links {
+        margin-top: 8px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .control-panel .links a {
+        font-weight: bold;
+        color: #486865;
+        font-size: 11px;
       }
     </style>
   </head>
   <body>
     <div id="app"></div>
     <script type="module">
-      import '@vis.gl/react-google-maps/examples.css';
-      import '@vis.gl/react-google-maps/examples.js';
       import {renderToDom} from './src/app';
 
       renderToDom(document.querySelector('#app'));

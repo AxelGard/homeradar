@@ -1,24 +1,15 @@
-import {defineConfig, loadEnv} from 'vite';
+import { defineConfig } from 'vite';
 
-export default defineConfig(({mode}) => {
-  const {GOOGLE_MAPS_API_KEY = ''} = loadEnv(mode, process.cwd(), '');
-
-  return {
-    base: '/homeradar/',
-    define: {
-      'process.env.GOOGLE_MAPS_API_KEY': JSON.stringify(GOOGLE_MAPS_API_KEY)
+export default defineConfig({
+  base: '/homeradar/',
+  resolve: {
+    alias: {
+      'react-bootstrap': 'react-bootstrap/cjs',
     },
-    resolve: {
-      alias: {
-        '@vis.gl/react-google-maps/examples.js':
-          'https://visgl.github.io/react-google-maps/scripts/examples.js',
-          'react-bootstrap': 'react-bootstrap/cjs',
-      }
+  },
+  esbuild: {
+    logOverride: {
+      'use client': 'silent',
     },
-    esbuild: {
-      logOverride: {
-        'use client': 'silent',
-      },
-    },
-  };
+  },
 });

@@ -1,90 +1,81 @@
-import { useEffect, useMemo } from 'react';
-import { useMap, useMapsLibrary } from '@vis.gl/react-google-maps';
-import { FeatureCollection, Point, GeoJsonProperties } from 'geojson';
-import { activate, activateSqrt, gaussian, sigmoid, sigmoidAbs } from './activation';
+import React, { useMemo } from 'react';
+import { Layer, Source } from 'react-map-gl/maplibre';
+import type { HeatmapLayerSpecification } from 'maplibre-gl';
 import { useSearchParams } from 'react-router';
-
+import { HomesGeojson } from './homes';
+import { HomeTypes } from './hometypes';
 
 type HeatmapProps = {
-  geojson: FeatureCollection<Point, GeoJsonProperties>;
+  geojson: HomesGeojson;
   radius: number;
   opacity: number;
+  beforeId?: string;
 };
 
+// gaussian(x) = exp(-x*x) as a MapLibre expression
+const gaussianExpr = (arg: any): any => [
+  'exp',
+  ['*', -1, ['*', arg, arg]],
+];
 
-enum HomeTypes {
-  Apartment = "Apartment",
-  House = "House ",
-  TerracedHouse = "TerracedHouse",
-  ChainHouse = "ChainHouse",
-  Farm = "Farm",
-  LeisureHouse = "LeisureHouse",
-  Plot = "Plot",
-  SemiDetachedHouse = "SemiDetachedHouse",
-}
+const Heatmap = ({ geojson, radius, opacity, beforeId }: HeatmapProps) => {
+  const [searchParams] = useSearchParams();
+  const isTargetPriceChecked = searchParams.get('IsTargetPriceChecked') === 'true';
+  const targetPrice = Number(searchParams.get('TargetPrice') ?? '1000000');
+  const isHomeSizeChecked = searchParams.get('IsHomeSizeChecked') === 'true';
+  const homeSize = Number(searchParams.get('HomeSize') ?? '0');
+  const homeTypesParam = searchParams.get('HomeTypes') ?? Object.values(HomeTypes).join(',');
 
+  const paint = useMemo<HeatmapLayerSpecification['paint']>(() => {
+    const homeTypes = homeTypesParam.split(',');
 
-const Heatmap = ({ geojson, radius, opacity }: HeatmapProps) => {
-  const map = useMap();
-  const visualization = useMapsLibrary('visualization');
+    const sizeArg: any = ['*', 0.1, ['-', homeSize, ['to-number', ['get', 'size']]]];
+    const sizeGaussian = gaussianExpr(sizeArg);
 
-  const heatmap = useMemo(() => {
-    if (!visualization) return null;
+    const priceScale = Math.max(targetPrice, 1);
+    const priceArg: any = ['/', ['-', ['to-number', ['get', 'price']], targetPrice], priceScale];
+    const priceGaussian = gaussianExpr(priceArg);
 
-    return new google.maps.visualization.HeatmapLayer({
-      radius: radius,
-      opacity: opacity
-    });
-  }, [visualization, radius, opacity]);
+    const factors: any[] = [];
+    if (isHomeSizeChecked) factors.push(sizeGaussian);
+    if (isTargetPriceChecked) factors.push(priceGaussian);
 
-  const [searchParams, setSearchParams] = useSearchParams();
-  const isTargetPriceChecked = Boolean(searchParams.get('IsTargetPriceChecked') === "true");
-  const targetPrice = Number(searchParams.get('TargetPrice') ?? "1000000");
-  const isHomeSizeChecked = Boolean(searchParams.get('IsHomeSizeChecked') === "true");
-  const homeSize = Number(searchParams.get('HomeSize') ?? "0");
-  const homeTypes = (searchParams.get('HomeTypes') ?? Object.values(HomeTypes).toString()).split(",");
+    const matchedWeight: any =
+      factors.length === 0 ? 1 :
+      factors.length === 1 ? factors[0] :
+      ['*', ...factors];
 
-  useEffect(() => {
-    if (!heatmap) return;
+    const weight: any = [
+      'case',
+      ['in', ['get', 'type'], ['literal', homeTypes]],
+      matchedWeight,
+      0.00001,
+    ];
 
-    const data: google.maps.visualization.WeightedLocation[] = [];
-    for (const point of geojson.features) {
-      const [lat, lng] = point.geometry.coordinates;
-      //let w: number = 0.0001;
-      let w: number = 1.0;
-      if (homeTypes.includes(point.properties?.type)) {
-        if (isHomeSizeChecked) {
-          w *= gaussian((homeSize - +point.properties?.size)*0.1);
-        }
-        if (isTargetPriceChecked) {
-          let propPrice = +point.properties?.price;
-          w *= gaussian(targetPrice / (propPrice - targetPrice));
-        }
-      }
-      else {
-        w *= 0.00001;
-      }
-      console.log();
-      w = Math.max(w, 0.000001);
-      data.push({
-        location: new google.maps.LatLng(lng, lat),
-        weight: w,
-      });
-    }
-    heatmap.setData(data);
-  }, [heatmap, geojson, radius, opacity, isTargetPriceChecked, targetPrice, homeSize, isHomeSizeChecked]);
-
-  useEffect(() => {
-    if (!heatmap) return;
-
-    heatmap.setMap(map);
-
-    return () => {
-      heatmap.setMap(null);
+    return {
+      'heatmap-weight': weight,
+      'heatmap-radius': radius,
+      'heatmap-opacity': opacity,
+      'heatmap-intensity': 1,
+      'heatmap-color': [
+        'interpolate',
+        ['linear'],
+        ['heatmap-density'],
+        0, 'rgba(0, 0, 255, 0)',
+        0.2, 'royalblue',
+        0.4, 'cyan',
+        0.6, 'lime',
+        0.8, 'yellow',
+        1, 'red',
+      ],
     };
-  }, [heatmap, map]);
+  }, [radius, opacity, isHomeSizeChecked, isTargetPriceChecked, targetPrice, homeSize, homeTypesParam]);
 
-  return null;
+  return (
+    <Source id="homes" type="geojson" data={geojson}>
+      <Layer id="homes-heat" type="heatmap" paint={paint} beforeId={beforeId} />
+    </Source>
+  );
 };
 
 export default Heatmap;

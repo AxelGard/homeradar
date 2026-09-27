@@ -2,4 +2,4 @@
 
 ![screenshot](./docs/screenshot.png)
 
-[get-api-key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+Heatmap for finding areas to look for property. Uses [MapLibre GL](https://maplibre.org/) with free [OpenFreeMap](https://openfreemap.org/) tiles — no API key required.

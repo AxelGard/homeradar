@@ -1,19 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router";
 import Dropdown from "react-bootstrap/Dropdown";
-
-enum HomeTypes {
-  Apartment = "Apartment",
-  House = "House",
-  TerracedHouse = "TerracedHouse",
-  ChainHouse = "ChainHouse",
-  Farm = "Farm",
-  LeisureHouse = "LeisureHouse",
-  Plot = "Plot",
-  SemiDetachedHouse = "SemiDetachedHouse",
-}
-
-
+import { HomeTypes } from "../hometypes";
 
 export function HomeType() {
   const [searchParams, setSearchParams] = useSearchParams();
